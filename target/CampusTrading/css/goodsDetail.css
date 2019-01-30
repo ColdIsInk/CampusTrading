@@ -1,0 +1,269 @@
+.detail{
+    width: 840px;
+    height: 256px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 50px;
+}
+.detail ul li{
+    float: left;
+}
+.detail img{
+    width: 300px;
+    height: 240px;
+}
+.detail .goodsContent{
+    margin-left: 30px;
+    width:500px;
+    margin-top: 12px;
+}
+.detail .goodsContent p{
+    text-align: center;
+    margin-top: 14px;
+}
+.detail .goodsContent .name{
+    font-size: 22px;
+    letter-spacing: 1px;
+}
+.detail .goodsContent>.price{
+    font-size: 20px;
+    color: rgba(238,127,46,0.98);
+}
+.detail .goodsContent .content{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.detail .goodsContent input[type=number]{
+    width: 50px;
+    height: 20px;
+}
+.detail .goodsContent input[type=button]{
+    width: 20px;
+    height: 20px;
+    font-size: 18px;
+}
+.detail button{
+    margin-top: 30px;
+    margin-left:70px;
+}
+.detail .addCart{
+    margin-left: 40px;
+}
+.layui-btn-lg:hover{
+    color: rgba(238,0,51,0.98);
+}
+.addCart:hover i{
+    color: rgba(238,0,51,0.98);
+}
+.detail img:hover{
+    cursor: pointer;
+}
+/*创建一个订单的弹窗的样式*/
+.createOrder{
+    width: 400px;
+    height: 350px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-top: 20px;
+
+    display: none;/*隐藏点击直接购买后显示出来*/
+}
+.layui-layer-content{
+    background: #dff7f9;
+}
+.createOrder ul{
+    height: 72px;
+    margin-top: 8px;
+}
+.createOrder ul li{
+    float: left;
+}
+.createOrder ul li img{
+    width: 70px;
+    height: 70px;
+    margin-left: 15px;
+}
+.createOrder ul li:nth-child(2){
+    width: 280px;
+    margin-left: 30px;
+}
+.createOrder ul .name{
+    display:block;
+    text-align: center;
+    font-size: 18px;
+    color: #ff48b1;
+}
+.createOrder ul .content{
+    margin-top: 10px;
+    text-indent: 2em;
+}
+.createOrder ul li a:hover{
+    cursor:pointer;
+    text-decoration: underline;
+    color: #FF00FF;
+}
+/*收货人的信息*/
+.receive{
+    height: 74px;
+    width: 95%;
+    font-size: 18px;
+    padding-left: 5%;
+    padding-top: 10px;
+}
+.receive:hover{
+    background: #cccccc;
+    cursor: pointer;
+    color: #333333;
+}
+.receive .notRece{
+    width: 100%;
+    text-align: center;
+    line-height: 74px;
+    font-size: 16px;
+    color: #08aef9;
+}
+.receive .receive-child>p{
+    margin-top: 8px;
+}
+.createOrder .receive-child>p{
+    width: 370px;
+    margin-top: 12px;
+    margin-left: 30px;
+}
+/*单价，商品数量，以及对数量的加减*/
+.createOrder .price{
+    font-size: 20px;
+    color: rgba(238,127,46,0.98);
+}
+.createOrder .gNum{
+    margin-left: 100px;
+    letter-spacing: 2px;
+    color: #666666;
+}
+.createOrder input[type=button]{
+    width: 24px;
+    height: 24px;
+    font-size: 18px;
+}
+.createOrder .oReduce{
+    margin-left: 156px;
+}
+.createOrder .oSum{
+    display:inline-block;
+    width: 30px;
+    height: 26px;
+    text-align: center;
+}
+/*买家留言*/
+.createOrder .note{
+    width: 370px;
+    margin-left: 30px;
+    margin-top: 8px;
+    line-height: 30px;
+}
+.createOrder .note input{
+    width: 290px;
+    height: 30px;
+    margin-left: 10px;
+    border: none;
+    border-bottom: #888888 1px solid;
+    background: none;
+}
+/*总价*/
+.createOrder .subOrder{
+    width: 370px;
+    height:40px;
+    line-height:40px;
+    margin-left: 30px;
+    font-size: 16px;
+    margin-top: 10px;
+}
+.createOrder .subOrder span{
+    font-size: 18px;
+    color: rgba(238,65,3,0.98);
+    margin-left: 20px
+}
+.createOrder .subOrder .layui-btn{
+    float: right;
+    margin-right: 20px;
+}
+/*付款*/
+.payFor{
+    width: 320px;
+    height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    line-height: 22px;
+    display: none;
+}
+.payFor i{
+    width:100%;
+    display: block;
+    font-size: 18px;
+    margin-top: 6px;
+    text-align: center;
+    color: #ff48b1;
+}
+.payFor p{
+    margin-left: 30px;
+    margin-top: 8px;
+}
+.payFor span{
+    margin-left: 8px;
+    font-size: 18px;
+}
+.payFor .payBtn{
+    float: right;
+    margin-top: 100px;
+}
+/*用户评价*/
+.evaluate{
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+}
+.evaluate h3{
+    width: 100%;
+    height: 30px;
+    background: #f950e1;
+    font-family: 微软雅黑;
+    letter-spacing: 2px;
+    line-height: 30px;
+    font-size: 24px;
+}
+.evaluate .noEva{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 18px;
+    font-family: sans-serif;
+    text-align: center;
+    margin-top: 30px;
+    display: none;
+}
+.evaluate ul{
+    width: 100%;
+}
+.evaluate>ul>li img{
+    width: 28px;
+    height: 28px;
+}
+.evaluate>ul>li:first-child{
+    margin-top: 2px;
+}
+.evaluate>ul>li{
+    margin-top: 8px;
+}
+.evaluate ul li .eName{
+    letter-spacing: 1px;
+    color: #f9349b;
+}
+.evaluate ul li p{
+    text-indent: 2em;
+}
+.evaluate ul li .score{
+    margin-left: 15px;
+}

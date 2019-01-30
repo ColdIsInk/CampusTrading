@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.dao.EvaluateDao">
+
+    <!--添加一条·评价-->
+    <insert id="createEvaluate" parameterType="com.entity.Evaluate">
+        insert into evaluation(gid,uname,content,score,eTime)
+        values (#{gid},#{uname},#{content},#{score},curdate())
+    </insert>
+
+    <!--查询某件商品的所有评价-->
+    <select id="selectEvaluateByGid" parameterType="int" resultType="com.entity.Evaluate">
+        select * from evaluation where gid=#{gid} order by score desc limit 4
+    </select>
+
+
+
+</mapper>

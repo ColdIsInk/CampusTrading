@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.dao.OrderDao">
+
+    <!--根据商品的ID来查询卖家的姓名,用在创建订单时写卖家的姓名-->
+    <select id="selectNameByGID" parameterType="int" resultType="com.entity.User">
+        select * from user where Id=(select u_id from goods where g_id=#{gId})
+    </select>
+
+    <!--查询某个用户待付款的订单，根据用户名和状态-->
+    <select id="pendingPayment" parameterType="String" resultType="com.entity.Orders">
+        select * from orders where uName=#{uName} and state=1
+    </select>
+
+    <!--查询某个用户待发货的订单，根据用户名和状态-->
+    <select id="pendingShipped" parameterType="String" resultType="com.entity.Orders">
+        select * from orders where uName=#{uName} and state=2
+    </select>
+
+    <!--查询某个用户待收货的订单，根据用户名和状态-->
+    <select id="pendingReceipt" parameterType="String" resultType="com.entity.Orders">
+        select * from orders where uName=#{uName} and state=3
+    </select>
+
+    <!--查询某个用户待评价的订单，根据用户名和状态-->
+    <select id="pendingEvaluation" parameterType="String" resultType="com.entity.Orders">
+        select * from orders where uName=#{uName} and state=4
+    </select>
+
+    <!--查询某个用户待付款的订单的数量，根据用户名和状态-->
+    <select id="pendingPaymentCount" parameterType="String" resultType="int">
+        select Count(*) from orders where uName=#{uName} and state=1
+    </select>
+
+    <!--查询某个用户待发货的订单数量，根据用户名和状态-->
+    <select id="pendingShippedCount" parameterType="String" resultType="int">
+        select Count(*) from orders where uName=#{uName} and state=2
+    </select>
+
+    <!--查询某个用户待收货的订单数量，根据用户名和状态-->
+    <select id="pendingReceiptCount" parameterType="String" resultType="int">
+        select Count(*) from orders where uName=#{uName} and state=3
+    </select>
+
+    <!--查询某个用户待评价的订单数量，根据用户名和状态-->
+    <select id="pendingEvaluationCount" parameterType="String" resultType="int">
+        select Count(*) from orders where uName=#{uName} and state=4
+    </select>
+
+    <!--查询卖家需要处理的订单，就是卖家需要发货的订单-->
+    <select id="needShipped" parameterType="String" resultType="int">
+        select * from orders where sName=#{sName} and state=2
+    </select>
+
+    <!--查询卖家需要处理的订单的数量-->
+    <select id="needShippedNum" parameterType="String" resultType="int">
+        select count(*) from orders where sName=#{sName} and state=2
+    </select>
+
+    <!--创建订单，订单状态为1-->
+    <insert id="createOrder" parameterType="com.entity.Orders">
+        insert into orders(sName,uName,receiveId,gId,goodsNumber,unitPrice,totalPrice,buyerNote,createTime,state)
+         values (#{sName},#{uName},#{receiveId},#{gId},#{goodsNumber},#{unitPrice},#{totalPrice},#{buyerNote},sysdate(),#{state})
+    </insert>
+
+    <!--用户给某个未付款的订单付款,只有状态为1的才能支付-->
+    <update id="payForOrder" parameterType="int">
+        update orders set state=2 where oId=#{oId} and state=1
+    </update>
+
+    <!--卖家根据订单发货，修改订单状态-->
+    <update id="sendGoods" parameterType="int">
+        update orders set state=3 where oId=#{oId} and state=2
+    </update>
+
+    <!--买家确认接收到商品，修改订单状态-->
+    <update id="receiveGoods" parameterType="int">
+        update orders set state=4 where oId=#{oId} and state=3
+    </update>
+
+    <!--买家对商品进行评价后，修改订单状态-->
+    <update id="evaluateGoods" parameterType="int">
+        update orders set state=5 where oId=#{oId} and state=4
+    </update>
+
+    
+    <!--买家删除自己的订单-->
+    <delete id="deleteOrder" parameterType="int">
+        delete from orders where oId=#{oId}
+    </delete>
+
+</mapper>

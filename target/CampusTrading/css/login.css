@@ -1,0 +1,7 @@
+﻿*{padding:0;margin:0}a{text-decoration:none}img{border:none}body{font-family:Arial, Verdana, "微软雅黑","宋体";background-image:url("../images/snow.png");background-size:cover;overflow:hidden}.login_box{width:400px;height:260px;position:absolute;left:50%;top:50%;transform:translate(-50%, -50%)}.login_box h2{text-align:center;font-family:华文行楷;font-size:40px}.login_box form .input_in{width:360px;height:40px;margin-right:auto;margin-left:auto;margin-top:12px;border:rgba(74,108,239,0.92) solid 1px;border-radius:20px;position:relative;transition:all 0.5s}.login_box form .input_in:hover{border:#61ffda  solid 1px;background:rgba(90,184,239,0.6)}.login_box form .input_in span{width:30px;height:30px;position:absolute;margin:5px 10px;font-size:30px;color:#23262E}.login_box form .input_in input{height:40px;width:310px;padding-left:6px;line-height:40px;margin-left:50px;border:rgba(74,108,239,0.92) solid 0px;border-bottom-right-radius: 20px;border-top-right-radius: 20px;color:#FFFFFF;font-size:16px;display:inline-block;background:none}.login_box form button{display:block;width:360px;height:40px;margin-left:auto;margin-right:auto;margin-top:20px;border-radius:20px;font-size:18px}.login_box .other{margin-top:20px;float:right;margin-right:20px}.login_box .other a{color:#888888}.login_box .other a:hover{color:#f2f2f2}
+.prompt{
+    color: rgba(238,15,78,0.98);
+    text-align: center;
+    font-size: 16px;
+}
+/*# sourceMappingURL=login.css.map */

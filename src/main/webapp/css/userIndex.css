@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+img{
+    border: none;
+}
+
+.shoppingCart:hover i{
+    color: #ff48b1;
+}
+
+.layui-nav{
+    height: 60px;
+}
+.layui-logo{
+    color: #FF5722;
+    width: 180px;
+    line-height: 60px;
+    text-align: center;
+    font-size: 18px;
+}
+.layui-nav-item{
+    text-align: center;
+}
+.layui-header{
+    width: 100%;
+}
+.shopping{
+    width: 100%;
+    height: 90%;
+}
+/*成为卖家的样式*/
+.seller{
+    display: none;
+    color: #555555;
+}
+.seller h4,.seller h2,.seller p{
+    color: #000000;
+    font-weight: 400;
+    margin-top: 10px;
+}
+.seller p a{color: rgba(30,142,238,0.98);}
+.seller p a:hover{
+    text-decoration: underline;
+    color: rgba(238,48,119,0.98);
+}
+.seller input{
+    margin-top: 10px;
+    margin-left: 290px;
+}
+
+.seller button{
+    margin-top: 15px;
+    text-align: center;
+    margin-left: 298px;
+    margin-bottom: 15px;
+}
+.layui-logo:hover{cursor: pointer;}
+/*主页上购物车那里面的内容*/
+.shoppingCart span{
+    color: rgba(200,1,0,0.8);
+    font-size: 18px;
+    margin-left: 2px;
+}
+
+.goods_con{
+    width: 280px;
+}
+.goods_con img{
+    cursor: pointer;
+}
+.goods_con ul li{
+    float: left;
+    height: 50px;
+    line-height: 22px;
+}
+.goods_con ul li img{
+    width: 45px;
+    height: 45px;
+}
+.goods_con ul li:nth-child(2){
+    margin-left: 6px;
+}
+.goods_con ul>li:nth-child(3) a{
+    display:inline-block;
+    width:140px;
+    height:50px;
+    padding-left: 6px;
+    overflow: hidden;
+    text-overflow: ellipsis;/*内容超出用...显示*/
+    line-height: 45px;
+}
+.goods_con ul li:nth-child(4){
+    width: 50px;
+    margin-left: -6px;
+}
+.goods_con ul li p{
+    color: rgba(238,76,29,0.98);
+    font-size: 16px;
+}
+.goods_con ul li a{
+    color: #00ffff;
+    padding: 0;
+}
+.goods_con ul>li:nth-child(3) a:hover,.goods_con ul>li:nth-child(4) a:hover{
+    color: rgba(238,43,47,0.98);
+}
+.goods_con #enterCart:hover{background: rgba(238,195,97,0.98)}
+.cart-goods .layui-btn-warm{
+    float: right;
+    margin-right: 4px;
+    margin-top: 6px;
+    color: #eeeeee;
+}
+.cart-goods .layui-btn-warm:hover{
+    background: rgba(238,68,8,0.98);
+}
+/*订单数量*/
+.layui-nav-child a .orderNum{
+    display: inline-block;
+    color: rgba(238,79,233,0.98);
+    margin-left: 6px;
+    font-size: 17px;
+}

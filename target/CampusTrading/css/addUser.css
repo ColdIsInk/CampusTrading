@@ -1,0 +1,13 @@
+a{text-decoration:none}
+img{border:none}
+body{font-family:Arial, Verdana, "微软雅黑","宋体";}
+.layui-form{width: 340px;height: 400px;margin-left: auto;margin-right: auto;margin-top: 60px;}
+form h2{width: 340px;text-align: center;margin-bottom: 10px;
+    font-weight: 600;font-family: 华文行楷;font-size: 32px}
+.input_in{width: 340px;height: 40px;margin-left: auto;margin-right: auto;}
+.input_in>span{display: inline-block;width: 78px;height: 34px;line-height: 32px;
+    font-size: 16px;margin-top: 10px;text-align: center;margin-left: 4px;
+}
+.input_in>input{width: 240px;height: 34px;border-radius: 6px;border: rgba(167,232,238,0.98) solid 1px;padding-left: 4px;}
+.input_in .layui-form-radio{height:34px;font-size: 16px;}
+form button{font-size:16px;margin-left: 86px;margin-top: 18px;}

@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.dao.NoticeDao">
+    <!--查询公告列表-->
+    <select id="getNoticeList" resultType="com.entity.Notice">
+        select * from notice where state=1
+    </select>
+
+    <!--根据ID查询公告信息-->
+    <select id="queryNoticeById" parameterType="int" resultType="com.entity.Notice">
+        select * from notice where id=#{id}
+    </select>
+
+    <!--发布一条新公告-->
+    <insert id="addNotice" parameterType="com.entity.Notice">
+        insert into notice(title,content,createTime) values(#{title},#{content},curdate())
+    </insert>
+
+    <!--根据ID编辑、修改公告信息-->
+    <update id="updateNotice" parameterType="com.entity.Notice">
+        update notice set title=#{title},content=#{content},state=#{state} where id=#{id}
+    </update>
+
+
+    <!--根据ID删除公告,修改他的状态，不是真正地删除-->
+    <update id="deleteNotice" parameterType="int">
+        update notice set state=0 where id=#{id}
+    </update>
+
+
+</mapper>

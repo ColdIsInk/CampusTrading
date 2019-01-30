@@ -1,0 +1,1290 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="GROUP_BY_SEVERITY" value="true" />
+  </component>
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="CampusTrading:war exploded" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="2231f1ac-113d-42e1-8971-8ff23275ab4e" name="Default Changelist" comment="" />
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/CampusTrading$Trading.ic" NAME="Trading Coverage Results" MODIFIED="1548308479096" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+  </component>
+  <component name="CoverageViewManager">
+    <option name="myElementSize" value="132" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="196039384">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="61" />
+          <entry key="project.open.time.1" value="1" />
+          <entry key="project.open.time.110" value="1" />
+          <entry key="project.open.time.130" value="1" />
+          <entry key="project.open.time.2" value="6" />
+          <entry key="project.open.time.24" value="1" />
+          <entry key="project.open.time.26" value="2" />
+          <entry key="project.open.time.27" value="1" />
+          <entry key="project.open.time.28" value="2" />
+          <entry key="project.open.time.29" value="1" />
+          <entry key="project.open.time.3" value="1" />
+          <entry key="project.open.time.34" value="1" />
+          <entry key="project.open.time.4" value="2" />
+          <entry key="project.open.time.43" value="1" />
+          <entry key="project.open.time.5" value="1" />
+          <entry key="project.open.time.55" value="1" />
+          <entry key="project.open.time.58" value="3" />
+          <entry key="project.open.time.59" value="1" />
+          <entry key="project.open.time.6" value="2" />
+          <entry key="project.open.time.60" value="1" />
+          <entry key="project.open.time.62" value="1" />
+          <entry key="project.open.time.64" value="1" />
+          <entry key="project.open.time.66" value="2" />
+          <entry key="project.open.time.67" value="1" />
+          <entry key="project.open.time.68" value="2" />
+          <entry key="project.open.time.69" value="2" />
+          <entry key="project.open.time.7" value="1" />
+          <entry key="project.open.time.70" value="4" />
+          <entry key="project.open.time.71" value="3" />
+          <entry key="project.open.time.72" value="2" />
+          <entry key="project.open.time.74" value="1" />
+          <entry key="project.open.time.75" value="1" />
+          <entry key="project.open.time.76" value="1" />
+          <entry key="project.open.time.79" value="2" />
+          <entry key="project.open.time.80" value="1" />
+          <entry key="project.open.time.82" value="1" />
+          <entry key="project.open.time.84" value="1" />
+          <entry key="project.open.time.85" value="2" />
+          <entry key="project.open.time.91" value="1" />
+          <entry key="project.open.time.98" value="1" />
+          <entry key="project.opened" value="61" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="class" value="107" />
+          <entry key="css" value="64" />
+          <entry key="fxml" value="2" />
+          <entry key="html" value="3" />
+          <entry key="ico" value="2" />
+          <entry key="java" value="231" />
+          <entry key="js" value="18" />
+          <entry key="jsp" value="198" />
+          <entry key="kt" value="1" />
+          <entry key="png" value="1" />
+          <entry key="properties" value="6" />
+          <entry key="svg" value="2" />
+          <entry key="tld" value="4" />
+          <entry key="ttf" value="2" />
+          <entry key="xml" value="110" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="CLASS" value="107" />
+          <entry key="CSS" value="64" />
+          <entry key="Font" value="2" />
+          <entry key="HTML" value="3" />
+          <entry key="Image" value="3" />
+          <entry key="JAVA" value="231" />
+          <entry key="JSP" value="198" />
+          <entry key="JavaScript" value="18" />
+          <entry key="Kotlin" value="1" />
+          <entry key="Properties" value="6" />
+          <entry key="SVG" value="2" />
+          <entry key="XML" value="116" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="class" value="2" />
+          <entry key="css" value="1656" />
+          <entry key="dummy" value="16" />
+          <entry key="fxml" value="9" />
+          <entry key="html" value="23" />
+          <entry key="java" value="11199" />
+          <entry key="jsp" value="29260" />
+          <entry key="properties" value="27" />
+          <entry key="tld" value="78" />
+          <entry key="txt" value="12" />
+          <entry key="xml" value="4213" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="CLASS" value="2" />
+          <entry key="CSS" value="1656" />
+          <entry key="HTML" value="55" />
+          <entry key="JAVA" value="11199" />
+          <entry key="JSP" value="29228" />
+          <entry key="PLAIN_TEXT" value="28" />
+          <entry key="Properties" value="27" />
+          <entry key="SQL" value="14" />
+          <entry key="XML" value="4286" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.spring.core.usages.trigger">
+        <counts>
+          <entry key="fixes.SpringFacetInspection.AddFacetFix" value="1" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/controller/GoodsController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="442">
+              <caret line="116" column="43" selection-start-line="116" selection-start-column="37" selection-end-line="116" selection-end-column="43" />
+              <folding>
+                <element signature="method#getGoodsType#0;class#GoodsController#0" />
+                <element signature="method#publishGoods#0;class#GoodsController#0" />
+                <element signature="method#selectGoodsBySeller#0;class#GoodsController#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/Order/pendingPayment.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="451">
+              <caret line="184" column="11" lean-forward="true" selection-start-line="172" selection-start-column="8" selection-end-line="184" selection-end-column="11" />
+              <folding>
+                <element signature="e#139#145#0" expanded="true" />
+                <element signature="e#156#162#0" expanded="true" />
+                <element signature="e#172#178#0" expanded="true" />
+                <element signature="e#219#225#0" expanded="true" />
+                <element signature="e#238#244#0" expanded="true" />
+                <element signature="e#257#263#0" expanded="true" />
+                <element signature="e#6#12#0" expanded="true" />
+                <element signature="e#126#132#0" expanded="true" />
+                <element signature="e#132#138#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/Order/pendingEvaluation.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="362">
+              <caret line="165" column="23" selection-start-line="165" selection-start-column="23" selection-end-line="165" selection-end-column="23" />
+              <folding>
+                <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#1;n#body#0;n#html#0;n#!!top" />
+                <element signature="e#2233#2239#0#HTML" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="e#2711#4983#0#HTML" />
+                <element signature="e#3212#3576#0#HTML" />
+                <element signature="e#139#145#0" expanded="true" />
+                <element signature="e#156#162#0" expanded="true" />
+                <element signature="e#172#178#0" expanded="true" />
+                <element signature="e#0#5#0" expanded="true" />
+                <element signature="e#15#21#0" expanded="true" />
+                <element signature="e#4493#4964#0#HTML" />
+                <element signature="e#6112#6172#0#HTML" />
+                <element signature="e#6320#6352#0#HTML" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/mapper/OrderMapper.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="299">
+              <caret line="86" selection-start-line="86" selection-end-line="86" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/Order/needShipped.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="266">
+              <caret line="14" column="5" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/controller/OrderController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="118">
+              <caret line="109" column="5" lean-forward="true" selection-start-line="109" selection-start-column="5" selection-end-line="109" selection-end-column="5" />
+              <folding>
+                <element signature="method#createOrder#0;class#OrderController#0" />
+                <element signature="method#needShippedNum#0;class#OrderController#0" />
+                <element signature="method#createOrder#1;class#OrderController#0" />
+                <element signature="method#pendingPayment#0;class#OrderController#0" />
+                <element signature="method#needShipped#0;class#OrderController#0" />
+                <element signature="method#deleteOrder#0;class#OrderController#0" />
+                <element signature="method#receiveGoods#0;class#OrderController#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/dao/OrderDao.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="437">
+              <caret line="41" column="46" selection-start-line="41" selection-start-column="46" selection-end-line="41" selection-end-column="46" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/service/OrderService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="589">
+              <caret line="64" column="46" selection-start-line="64" selection-start-column="46" selection-end-line="64" selection-end-column="46" />
+              <folding>
+                <element signature="method#allKindsOrderNum#0;class#OrderService#0" />
+                <element signature="e#1861#1862#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+        <option value="Kotlin File" />
+        <option value="HTML File" />
+        <option value="Tag Library Descriptor" />
+        <option value="FxmlFile" />
+        <option value="spring-beans.schema" />
+        <option value="Jsp File" />
+        <option value="Interface" />
+        <option value="Class" />
+        <option value="CSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/Login/adminIndex.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/controller/LoginController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/dao/NoticeDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/service/NoticeService.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/css/shopping.css" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/Goods/shopping.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/Notice/noticeList.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/mapper/NoticeMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/dao/GoodsDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/service/GoodsService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/entity/Order.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/Order/createOrder.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/entity/Goods.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/User/basicInfo.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/User/receiptAddress.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/controller/NoticeController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/controller/AddressController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/dao/AddressDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/service/AddressService.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/css/receiptAddress.css" />
+        <option value="$PROJECT_DIR$/src/main/webapp/css/userIndex.css" />
+        <option value="$PROJECT_DIR$/src/main/java/com/mapper/UserMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/entity/Orders.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/Address/receiptAddress.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/Order/payment.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/Order/PendingShipped.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/Order/needShipped.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/entity/Receive.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/dao/EvaluateDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/service/EvaluateService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/mapper/EvaluateMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/entity/Evaluate.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/controller/EvaluateController.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/Login/userIndex.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/Goods/myCart.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/Goods/goodsDetail.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/Goods/addGoods.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/mapper/GoodsMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/controller/GoodsController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/mapper/AddressMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/webapp/index.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/css/goodsDetail.css" />
+        <option value="$PROJECT_DIR$/src/main/java/com/controller/UserController.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/Order/pendingShipped.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/service/OrderService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/controller/OrderController.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/Order/pendingPayment.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/Order/pendingReceipt.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/Order/pendingEvaluation.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/dao/OrderDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/mapper/OrderMapper.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBowerSettings">
+    <node-interpreter value="project" />
+    <bower-package value="" />
+    <bower.json value="" />
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="CampusTrading Maven Webapp" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="CampusTrading Maven Webapp" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="MavenRunner">
+    <option name="skipTests" value="true" />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="471" />
+    <option name="y" value="10" />
+    <option name="width" value="883" />
+    <option name="height" value="788" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="AndroidView" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="CampusTrading" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CampusTrading" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CampusTrading" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CampusTrading" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CampusTrading" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CampusTrading" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CampusTrading" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CampusTrading" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CampusTrading" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CampusTrading" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CampusTrading" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CampusTrading" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="mapper" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CampusTrading" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CampusTrading" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CampusTrading" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CampusTrading" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CampusTrading" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CampusTrading" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+              <item name="jsp" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.mappings" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.symlinks" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548748895282" />
+    <property name="last_opened_file_path" value="$MAVEN_REPOSITORY$/com/alibaba/fastjson/1.2.29/fastjson-1.2.29.jar!/" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\workspace\CampusTrading\src\main\webapp\WEB-INF\jsp\Address" />
+      <recent name="E:\workspace\CampusTrading\src\main\webapp\WEB-INF\jsp\Goods" />
+      <recent name="E:\workspace\CampusTrading\src\main\webapp\WEB-INF\jsp\Login" />
+      <recent name="E:\workspace\CampusTrading\src\main\webapp\WEB-INF\jsp\User" />
+      <recent name="E:\workspace\CampusTrading\src\main\webapp\fonts" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\workspace\CampusTrading\src\main\webapp\images" />
+      <recent name="E:\workspace\CampusTrading\src\main\webapp\images\goods_pic" />
+      <recent name="E:\workspace\CampusTrading\src\main\java\com\mapper" />
+      <recent name="E:\workspace\CampusTrading\src\main\webapp\js" />
+      <recent name="E:\workspace\CampusTrading\src\main\webapp\js\css" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="Trading" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.34" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/CampusTrading/" />
+      <option name="START_JAVASCRIPT_DEBUGGER" value="true" />
+      <deployment>
+        <artifact name="CampusTrading:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/CampusTrading" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_CampusTrading" />
+      </server-settings>
+      <predefined_log_file id="Tomcat" enabled="true" />
+      <predefined_log_file id="Tomcat Catalina" enabled="true" />
+      <predefined_log_file id="Tomcat Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Host Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="62361" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="CampusTrading:war exploded" />
+        </option>
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration>C:\Users\12829\AppData\Roaming\Subversion</configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2231f1ac-113d-42e1-8971-8ff23275ab4e" name="Default Changelist" comment="" />
+      <created>1543646674826</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1543646674826</updated>
+      <workItem from="1543646677761" duration="243000" />
+      <workItem from="1543647104403" duration="3086000" />
+      <workItem from="1544256416448" duration="7179000" />
+      <workItem from="1544850215431" duration="11892000" />
+      <workItem from="1544952762717" duration="13428000" />
+      <workItem from="1545053240612" duration="9092000" />
+      <workItem from="1545138028303" duration="10924000" />
+      <workItem from="1545200563334" duration="37000" />
+      <workItem from="1545201819789" duration="50000" />
+      <workItem from="1545201952938" duration="5000" />
+      <workItem from="1545223327720" duration="9621000" />
+      <workItem from="1545312157864" duration="7161000" />
+      <workItem from="1545455768016" duration="13275000" />
+      <workItem from="1545567916034" duration="1193000" />
+      <workItem from="1545658926401" duration="5302000" />
+      <workItem from="1545743256071" duration="5126000" />
+      <workItem from="1545827160086" duration="10144000" />
+      <workItem from="1545914411436" duration="7212000" />
+      <workItem from="1546000994967" duration="8702000" />
+      <workItem from="1546233672402" duration="4719000" />
+      <workItem from="1546240017402" duration="3078000" />
+      <workItem from="1546243169761" duration="538000" />
+      <workItem from="1546243761639" duration="4322000" />
+      <workItem from="1546317970672" duration="10166000" />
+      <workItem from="1546348352544" duration="6891000" />
+      <workItem from="1546405907859" duration="403000" />
+      <workItem from="1546417331739" duration="743000" />
+      <workItem from="1546419441271" duration="565000" />
+      <workItem from="1546422558066" duration="845000" />
+      <workItem from="1546429882119" duration="7456000" />
+      <workItem from="1546521898928" duration="5873000" />
+      <workItem from="1546664251618" duration="18058000" />
+      <workItem from="1546752968632" duration="16048000" />
+      <workItem from="1546934008091" duration="2851000" />
+      <workItem from="1547130314359" duration="2690000" />
+      <workItem from="1547271441965" duration="9377000" />
+      <workItem from="1547472512167" duration="2494000" />
+      <workItem from="1547533014838" duration="11778000" />
+      <workItem from="1547554033254" duration="6983000" />
+      <workItem from="1547619563973" duration="4950000" />
+      <workItem from="1547647949955" duration="3688000" />
+      <workItem from="1547691733424" duration="17111000" />
+      <workItem from="1547727804554" duration="9981000" />
+      <workItem from="1547774476978" duration="19955000" />
+      <workItem from="1547877373286" duration="10086000" />
+      <workItem from="1548033595152" duration="39000" />
+      <workItem from="1548162091278" duration="2095000" />
+      <workItem from="1548205507710" duration="28000" />
+      <workItem from="1548250508098" duration="6163000" />
+      <workItem from="1548291854008" duration="18000" />
+      <workItem from="1548296430587" duration="6626000" />
+      <workItem from="1548403755568" duration="1220000" />
+      <workItem from="1548407421187" duration="1180000" />
+      <workItem from="1548569088543" duration="9221000" />
+      <workItem from="1548596857933" duration="4472000" />
+      <workItem from="1548637597071" duration="22000" />
+      <workItem from="1548644981326" duration="1616000" />
+      <workItem from="1548659970212" duration="6517000" />
+      <workItem from="1548730451002" duration="1164000" />
+      <workItem from="1548741951936" duration="6956000" />
+      <workItem from="1548749822137" duration="6443000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="359101000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2677761" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Web" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Application Servers" order="0" sideWeight="0.49924356" weight="0.3295082" />
+      <window_info anchor="bottom" id="Message" order="1" />
+      <window_info anchor="bottom" id="Find" order="2" weight="0.050819673" />
+      <window_info anchor="bottom" id="Run" order="3" sideWeight="0.49848714" weight="0.045901638" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Version Control" order="6" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" auto_hide="true" id="Debug" order="8" sideWeight="0.4977307" type="SLIDING" weight="0.06721312" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.2590164" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50075644" side_tool="true" weight="0.3295082" />
+      <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.49924356" weight="0.124590166" />
+      <window_info anchor="bottom" id="TODO" order="12" weight="0.3065574" />
+      <window_info anchor="bottom" id="Spring" order="13" weight="0.3295082" />
+      <window_info anchor="bottom" id="Java Enterprise" order="14" weight="0.3295082" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.24962178" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Database" order="5" weight="0.32980332" />
+      <window_info anchor="right" id="Theme Preview" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Maven Projects" order="8" sideWeight="0.56487024" weight="0.34114978" />
+      <window_info anchor="right" id="Remote Host" order="9" weight="0.32980332" />
+      <window_info anchor="right" id="Coverage" order="10" sideWeight="0.43512973" side_tool="true" weight="0.2753404" />
+    </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2375189" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Web" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Application Servers" order="0" sideWeight="0.49924356" weight="0.3295082" />
+      <window_info anchor="bottom" id="Message" order="1" />
+      <window_info anchor="bottom" id="Find" order="2" weight="0.050819673" />
+      <window_info anchor="bottom" id="Run" order="3" sideWeight="0.49848714" visible="true" weight="0.0016393443" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Version Control" order="6" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info active="true" anchor="bottom" auto_hide="true" id="Debug" order="8" sideWeight="0.4977307" type="SLIDING" visible="true" weight="0.16229509" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.2590164" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50075644" side_tool="true" weight="0.3295082" />
+      <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.49924356" weight="0.124590166" />
+      <window_info anchor="bottom" id="TODO" order="12" weight="0.3065574" />
+      <window_info anchor="bottom" id="Spring" order="13" weight="0.3295082" />
+      <window_info anchor="bottom" id="Java Enterprise" order="14" weight="0.3295082" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.24962178" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Database" order="5" weight="0.32980332" />
+      <window_info anchor="right" id="Theme Preview" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Maven Projects" order="8" sideWeight="0.56487024" weight="0.34114978" />
+      <window_info anchor="right" id="Remote Host" order="9" weight="0.32980332" />
+      <window_info anchor="right" id="Coverage" order="10" sideWeight="0.43512973" side_tool="true" weight="0.2753404" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <watches-manager>
+      <configuration name="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory">
+        <watch expression="request" language="JAVA" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="watch">
+      <expression>
+        <expression-string>request</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/js/distpicker.data.min.js" />
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/js/distpicker.data.js" />
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/js/distpicker.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="513">
+          <caret line="35" column="21" selection-start-line="35" selection-start-column="11" selection-end-line="35" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/User/basicInfo.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-264">
+          <caret line="45" column="64" selection-start-line="45" selection-start-column="64" selection-end-line="45" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/Notice/noticeList.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="660">
+          <caret line="75" column="11" selection-start-line="75" selection-start-column="11" selection-end-line="75" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/4.3.10.RELEASE/spring-web-4.3.10.RELEASE.jar!/org/springframework/web/context/request/AbstractRequestAttributes.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/4.3.10.RELEASE/spring-webmvc-4.3.10.RELEASE.jar!/org/springframework/web/servlet/mvc/method/annotation/RequestMappingHandlerAdapter.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="194">
+          <caret line="454" selection-start-line="454" selection-end-line="454" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/User/editUser.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="452">
+          <caret line="71" column="39" selection-start-line="69" selection-start-column="7" selection-end-line="71" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/css/receiptAddress.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="13" selection-start-column="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/css/userIndex.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1767">
+          <caret line="93" column="30" selection-start-line="93" selection-start-column="30" selection-end-line="93" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mapper/ShoppingCartMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="21" column="25" selection-start-line="21" selection-start-column="24" selection-end-line="21" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/controller/NoticeController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="36" column="90" selection-start-line="36" selection-start-column="47" selection-end-line="36" selection-end-column="90" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/Address/receiptAddress.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="23" column="59" selection-start-line="23" selection-start-column="59" selection-end-line="23" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/Order/createOrder.jsp" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/entity/Receive.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="10" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/entity/Orders.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="12" column="25" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/dao/EvaluateDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="12" column="54" lean-forward="true" selection-start-line="10" selection-start-column="4" selection-end-line="12" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/service/EvaluateService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="18" column="11" selection-start-line="18" selection-start-column="11" selection-end-line="18" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/entity/Notice.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mapper/NoticeMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="17" column="82" lean-forward="true" selection-start-line="17" selection-start-column="82" selection-end-line="17" selection-end-column="82" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/images/people.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/entity/Evaluate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="50" column="28" selection-start-line="50" selection-start-column="28" selection-end-line="50" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/Goods/myCart.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="988">
+          <caret line="158" column="76" lean-forward="true" selection-start-line="155" selection-start-column="31" selection-end-line="158" selection-end-column="76" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/Login/userIndex.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1608">
+          <caret line="36" column="36" selection-start-line="36" selection-start-column="26" selection-end-line="36" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/4.3.10.RELEASE/spring-web-4.3.10.RELEASE.jar!/org/springframework/web/method/support/InvocableHandlerMethod.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="124" selection-start-line="124" selection-end-line="124" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/service/GoodsService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="205">
+          <caret line="20" column="27" lean-forward="true" selection-start-line="20" selection-start-column="25" selection-end-line="20" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/Goods/addGoods.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1026">
+          <caret line="54" column="28" selection-start-line="54" selection-start-column="28" selection-end-line="54" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mapper/GoodsMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="109">
+          <caret line="14" column="84" selection-start-line="14" selection-start-column="84" selection-end-line="14" selection-end-column="84" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/dao/GoodsDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="17" column="8" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/entity/Goods.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="522">
+          <caret line="48" selection-start-line="48" selection-end-line="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/dao/AddressDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="14" column="32" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/service/AddressService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="23" column="38" selection-start-line="23" selection-start-column="26" selection-end-line="23" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="21" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/controller/AddressController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="608">
+          <caret line="42" column="45" selection-start-line="42" selection-start-column="29" selection-end-line="42" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mapper/AddressMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="17" column="33" selection-start-line="17" selection-start-column="16" selection-end-line="17" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/controller/EvaluateController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="522">
+          <caret line="34" column="37" selection-start-line="34" selection-start-column="37" selection-end-line="34" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/css/goodsDetail.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="484">
+          <caret line="219" column="1" lean-forward="true" selection-start-line="191" selection-end-line="219" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/Goods/goodsDetail.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="421">
+          <caret line="326" column="15" lean-forward="true" selection-start-line="316" selection-start-column="12" selection-end-line="326" selection-end-column="15" />
+          <folding>
+            <element signature="e#8340#9892#0#HTML" />
+            <element signature="e#9965#11009#0#HTML" />
+            <element signature="e#11691#12500#0#HTML" />
+            <element signature="e#12566#13369#0#HTML" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/controller/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="318">
+          <caret line="154" column="37" selection-start-line="154" selection-start-column="21" selection-end-line="154" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mapper/UserMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="29" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/service/OrderService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="589">
+          <caret line="64" column="46" selection-start-line="64" selection-start-column="46" selection-end-line="64" selection-end-column="46" />
+          <folding>
+            <element signature="method#allKindsOrderNum#0;class#OrderService#0" />
+            <element signature="e#1861#1862#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/Order/pendingShipped.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="403">
+          <caret line="46" column="6" selection-start-line="37" selection-end-line="46" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/controller/GoodsController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="116" column="43" selection-start-line="116" selection-start-column="37" selection-end-line="116" selection-end-column="43" />
+          <folding>
+            <element signature="method#getGoodsType#0;class#GoodsController#0" />
+            <element signature="method#publishGoods#0;class#GoodsController#0" />
+            <element signature="method#selectGoodsBySeller#0;class#GoodsController#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/Order/pendingReceipt.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="77" column="38" lean-forward="true" selection-start-line="77" selection-start-column="38" selection-end-line="77" selection-end-column="38" />
+          <folding>
+            <element signature="n#div#2;n#body#0;n#html#0;n#!!top" />
+            <element signature="e#139#145#0" expanded="true" />
+            <element signature="e#156#162#0" expanded="true" />
+            <element signature="e#172#178#0" expanded="true" />
+            <element signature="e#219#225#0" expanded="true" />
+            <element signature="e#238#244#0" expanded="true" />
+            <element signature="e#257#263#0" expanded="true" />
+            <element signature="e#6#12#0" expanded="true" />
+            <element signature="e#5692#5708#0#HTML" />
+            <element signature="e#6307#6947#0#HTML" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mapper/EvaluateMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="41" selection-start-line="9" selection-start-column="34" selection-end-line="9" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/Order/needShipped.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="14" column="5" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/Order/pendingPayment.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="451">
+          <caret line="184" column="11" lean-forward="true" selection-start-line="172" selection-start-column="8" selection-end-line="184" selection-end-column="11" />
+          <folding>
+            <element signature="e#139#145#0" expanded="true" />
+            <element signature="e#156#162#0" expanded="true" />
+            <element signature="e#172#178#0" expanded="true" />
+            <element signature="e#219#225#0" expanded="true" />
+            <element signature="e#238#244#0" expanded="true" />
+            <element signature="e#257#263#0" expanded="true" />
+            <element signature="e#6#12#0" expanded="true" />
+            <element signature="e#126#132#0" expanded="true" />
+            <element signature="e#132#138#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/controller/OrderController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="118">
+          <caret line="109" column="5" lean-forward="true" selection-start-line="109" selection-start-column="5" selection-end-line="109" selection-end-column="5" />
+          <folding>
+            <element signature="method#createOrder#0;class#OrderController#0" />
+            <element signature="method#needShippedNum#0;class#OrderController#0" />
+            <element signature="method#createOrder#1;class#OrderController#0" />
+            <element signature="method#pendingPayment#0;class#OrderController#0" />
+            <element signature="method#needShipped#0;class#OrderController#0" />
+            <element signature="method#deleteOrder#0;class#OrderController#0" />
+            <element signature="method#receiveGoods#0;class#OrderController#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/Order/pendingEvaluation.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="362">
+          <caret line="165" column="23" selection-start-line="165" selection-start-column="23" selection-end-line="165" selection-end-column="23" />
+          <folding>
+            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="e#2233#2239#0#HTML" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#2711#4983#0#HTML" />
+            <element signature="e#3212#3576#0#HTML" />
+            <element signature="e#139#145#0" expanded="true" />
+            <element signature="e#156#162#0" expanded="true" />
+            <element signature="e#172#178#0" expanded="true" />
+            <element signature="e#0#5#0" expanded="true" />
+            <element signature="e#15#21#0" expanded="true" />
+            <element signature="e#4493#4964#0#HTML" />
+            <element signature="e#6112#6172#0#HTML" />
+            <element signature="e#6320#6352#0#HTML" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/dao/OrderDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="41" column="46" selection-start-line="41" selection-start-column="46" selection-end-line="41" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mapper/OrderMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="86" selection-start-line="86" selection-end-line="86" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>CampusTrading:war</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Web (CampusTrading)|Web</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>Spring|CampusTrading</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: aopalliance:aopalliance:1.0</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+  <component name="mavenExecuteGoalHistory">
+    <option value="" />
+  </component>
+</project>

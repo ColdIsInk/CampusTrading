@@ -1,0 +1,147 @@
+/*我的收货地址页面的样式*/
+.address-box{
+    width: 500px;
+    height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+}
+.address-tit{
+    width: 86%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.address-tit span{
+    font-size: 26px;
+    letter-spacing:1px;
+    font-family: 华文隶书;
+    font-weight: bold;
+    color: #333333;
+}
+.address-tit .layui-btn{
+    float: right;
+}
+/*地址的主要内容*/
+.address-con{
+    margin-top: 20px;
+}
+.address-con ul li{
+    margin-top: 15px;
+    width: 82%;
+    height:64px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.address-con .name{
+    font-size: 18px;
+}
+.address-con .tel{
+    margin-left: 20px;
+    color: #666666;
+}
+.address-con .address-operation{
+    float: right;
+    margin-right:8%;
+    margin-top: -35px;
+}
+.address-con .address-operation a{
+    color: #666666;
+}
+.address-operation .editAddress:hover{
+    cursor: pointer;
+    color: #ff48b1;
+}
+.address-operation .deleteAddress:hover{
+    cursor: pointer;
+    color: #ff0000;
+    margin-top: 6px;
+}
+.address-con ul li p i{
+    background: rgba(238,155,22,0.98);
+    color: #FFFFFF;
+    width: 30px;
+    height: 16px;
+}
+.address-con ul li p{
+    width: 80%;
+}
+.address-con .notAddress{
+    width: 60%;
+    margin-right: auto;
+    display: none;
+    margin-left: auto;
+    margin-top: 20px;
+    font-size: 16px;
+    color: rgba(238,171,223,0.98);
+}
+.address-logo span{
+    display: inline-block;
+    float: left;
+    width: 50px;
+    height: 50px;
+    background: #666666;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 50px;
+    font-size: 26px;
+    color: #cccccc;
+    margin-right: 20px;
+}
+/*添加一个新的收货地址的弹窗*/
+.addNewAddress{
+    width: 390px;
+    height: 240px;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    display: none;
+}
+.addNewAddress span,.editForm span{
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+.addNewAddress input,.editForm input{
+    padding-left:6px;
+    width: 300px;
+    height: 30px;
+    line-height: 30px;
+    margin-top: 10px;
+}
+.addNewAddress p,.editForm p{
+    margin-left: 10px;
+    font-size: 16px;
+    color: rgba(238,139,16,0.98);
+    margin-top: 10px;
+}
+.addNewAddress .selectAddress{
+    margin-left: 10px;
+}
+.addNewAddress .selectAddress select{
+    height: 30px;
+    width: 120px;
+}
+.addNewAddress textarea,.editForm textarea{
+    width: 300px;
+    height: 90px;
+    margin-top: 10px;
+    resize:none;/*让textarea不可拉伸*/
+}
+.layui-form-switch{
+    vertical-align: baseline;
+}
+/*编辑收货地址的弹窗样式*/
+.editForm{
+    width: 390px;
+    height: 220px;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    display: none;
+}
+.editForm .layui-form-radio{
+    margin: 0;
+}
+.layui-form-radio i{
+    font-size: 18px;
+}

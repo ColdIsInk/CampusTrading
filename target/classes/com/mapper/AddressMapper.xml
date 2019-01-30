@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.dao.AddressDao">
+
+    <!--查询某个用户的所有地址信息-->
+    <select id="selectAllAddress" parameterType="String" resultType="com.entity.Receive">
+        select * from receive where username=#{username} order by isDefault desc
+    </select>
+
+    <!--查询某个用户的默认地址信息-->
+    <select id="selectDefaultAddress" parameterType="String" resultType="com.entity.Receive">
+        select * from receive where username=#{username} and isDefault=1;
+    </select>
+
+    <!--根据ID查询用户的某个收货地址信息，用户编辑显示-->
+    <select id="selectAddressById" parameterType="int" resultType="com.entity.Receive">
+        select * from receive where id=#{id}
+    </select>
+
+    <!--添加一个新收货地址-->
+    <insert id="newAddress" parameterType="com.entity.Receive">
+        insert into receive(username,receiveMan,receiveAddress,receiveTel,isDefault)
+        values(#{username},#{receiveMan},#{receiveAddress},#{receiveTel},#{isDefault});
+    </insert>
+
+    <!--先把这个用户下面的所有地址的默认值都改为0-->
+    <update id="updateAddressNotDefault" parameterType="String">
+        update receive set isDefault=0 where username=#{username};
+    </update>
+    <!--根据ID编辑、修改收货地址-->
+    <update id="updateAddress" parameterType="com.entity.Receive">
+        update receive set receiveMan=#{receiveMan},receiveAddress=#{receiveAddress},receiveTel=#{receiveTel},isDefault=#{isDefault} where id=#{id};
+    </update>
+
+
+
+    <!--根据ID删除收货地址-->
+    <delete id="deleteAddress" parameterType="int">
+        delete from receive where id=#{id}
+    </delete>
+
+
+</mapper>

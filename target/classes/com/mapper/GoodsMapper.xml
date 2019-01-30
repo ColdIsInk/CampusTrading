@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.dao.GoodsDao">
+
+    <!--查询商品的种类-->
+    <select id="getGoodsType" resultType="com.entity.GoodsType">
+        select * from goods_type order by Id
+    </select>
+
+    <!--添加新商品-->
+    <insert id="insertGoods" parameterType="com.entity.Goods">
+        insert into goods(name,price,number,type_id,content,picture,u_id)
+          values (#{name},#{price},#{number},#{type_id},#{content},#{picture},#{u_id})
+    </insert>
+
+    <!--查询所有商品,用于在用户进来的界面是展示的商品-->
+    <select id="selectGoods" resultType="com.entity.Goods">
+        select * from goods g where g.number>0
+    </select>
+
+    <!--根据名字或类型模糊查询符合的商品,用户搜索商品-->
+    <select id="queryGoodsByName" parameterType="String" resultType="com.entity.Goods">
+       select * from goods g where g.name like "%"#{name}"%" or g.type_id in
+        (select gt.Id from goods_type gt where gt.name like "%"#{name}"%")
+    </select>
+
+    <!--根据商品ID查询商品详细信息，用户查看商品详情-->
+    <select id="queryGoodsDetail" parameterType="int" resultType="com.entity.Goods">
+        select * from goods where g_id=#{id}
+    </select>
+
+    <!--卖家查看自己正在出售的商品数量-->
+    <select id="selectGoodsNumWithSeller" parameterType="String" resultType="int">
+         select count(g.g_id) from goods g left join user u on g.u_id=u.Id where u.username=#{username}
+    </select>
+
+    <!--卖家查看自己正在出售的商品信息-->
+    <select id="selectGoodsBySeller" parameterType="String" resultType="com.entity.Goods">
+        select g.* from goods g left join user u on g.u_id=u.Id where u.username=#{username}
+    </select>
+
+</mapper>

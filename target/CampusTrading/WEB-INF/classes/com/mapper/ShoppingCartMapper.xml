@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.dao.ShoppingCartDao">
+    <!--向购物中添加以及商品,用户用户查看商品后点击加入购物车-->
+    <insert id="insertGoodsToCart" parameterType="com.entity.ShoppingCart">
+        insert into shoppingcart(uName,gId,addTime) values (#{uName},#{gId},sysdate())
+    </insert>
+
+    <!--查询某个用户是否添加了某件商品，加入购物车前判断，以免重复-->
+    <select id="selectCartGoods" parameterType="com.entity.ShoppingCart" resultType="int">
+        select count(*) from shoppingcart where uName=#{uName} and gId=#{gId}
+    </select>
+
+    <!--查询某个用户购物车中商品的总数，用于在用户主页上展示-->
+    <select id="selectCartGoodsCount" parameterType="com.entity.ShoppingCart" resultType="int">
+        select count(*) from shoppingcart where uName=#{uName}
+    </select>
+
+    <!--查询某个用户购物车中的商品,用于用户把鼠标放在购物车上是显示出来-->
+    <select id="selectCartGoodsByUName" parameterType="String" resultType="com.entity.Goods">
+         select g.* from goods g ,shoppingcart s where g.g_id=s.gId and s.uName=#{uName} order by s.addTime
+    </select>
+
+    <!--删除购物车中的某条记录-->
+    <delete id="deleteCart">
+        delete from shoppingcart where uName=#{uName} and gId=#{gId}
+    </delete>
+</mapper>
