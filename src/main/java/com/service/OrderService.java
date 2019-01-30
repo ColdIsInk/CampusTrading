@@ -66,4 +66,12 @@ public class OrderService {
         return orderDao.receiveGoods(oId);
     }
 
+    public int sendGoods(int oId){//卖家发货后改变订单状态
+        return orderDao.sendGoods(oId);
+    }
+
+    public int evaluateGoods(int oId){//买家对商品进行评价后，改变订单状态
+        return orderDao.evaluateGoods(oId);
+    }
+
 }

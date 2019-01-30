@@ -149,6 +149,13 @@ public class OrderController {
         return r > 0?"1":"0";
     }
 
+    @RequestMapping("EvaluateGoods")
+    @ResponseBody
+    public String evaluateGoods(int oId){
+        int e=orderService.evaluateGoods(oId);
+        return e>0?"1":"0";
+    }
+
 
 
 }

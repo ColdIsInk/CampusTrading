@@ -158,14 +158,37 @@
                 },
                 //点击发布评价，添加一条评价
                 yes:function (index) {
-                    //获取评分中星星的个数
+                    //获取评分中星星的个数,也就是评分
                     var score=$("#grade .layui-icon-rate-solid").length;
+                    //评价内容
                     var content=$("#eContent").val();
+                    //添加评价
                     $.ajax({
-                        url:"/CampusTrading/"
+                        url:"/CampusTrading/CreateEvaluate",
+                        data:{"gid":gId,"uname":uName,"content":content,"score":score},
+                        type:"post",
+                        success:function (res) {
+                           if(res=="1"){
+                               //添加评价成功后，改变订单状态
+                               $.ajax({
+                                   url:"/CampusTrading/EvaluateGoods",
+                                   data:{"oId":oId},
+                                   type:"post",
+                                   success:function (ref) {
+                                       console.log("123");
+                                       if(ref=="1"){
+                                           layer.msg('添加评价成功',{icon:1,time:1500},function () {
+                                               window.location.reload();
+                                           });
+                                       }
+                                   }
+                               });
+                           }
+                           else{
+                               layer.msg('评价失败',{icon:5,time:1500})
+                           }
+                        }
                     });
-                    layer.close(index);
-                    $('#evaluate').hide();
                 },
                 //点击取消评价按钮，关闭弹窗
                 btn2:function (index) {

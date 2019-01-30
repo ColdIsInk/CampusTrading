@@ -77,7 +77,7 @@
 
     <!--买家确认接收到商品，修改订单状态-->
     <update id="receiveGoods" parameterType="int">
-        update orders set state=4 where oId=#{oId} and state=3
+        update orders set state=4,clinchTime=sysdate() where oId=#{oId} and state=3
     </update>
 
     <!--买家对商品进行评价后，修改订单状态-->
@@ -85,7 +85,6 @@
         update orders set state=5 where oId=#{oId} and state=4
     </update>
 
-    
     <!--买家删除自己的订单-->
     <delete id="deleteOrder" parameterType="int">
         delete from orders where oId=#{oId}
