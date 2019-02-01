@@ -50,7 +50,7 @@
     </select>
 
     <!--查询卖家需要处理的订单，就是卖家需要发货的订单-->
-    <select id="needShipped" parameterType="String" resultType="int">
+    <select id="needShipped" parameterType="String" resultType="com.entity.Orders">
         select * from orders where sName=#{sName} and state=2
     </select>
 
@@ -70,9 +70,9 @@
         update orders set state=2 where oId=#{oId} and state=1
     </update>
 
-    <!--卖家根据订单发货，修改订单状态-->
+    <!--卖家根据订单发货，修改订单状态,和发货时间-->
     <update id="sendGoods" parameterType="int">
-        update orders set state=3 where oId=#{oId} and state=2
+        update orders set state=3 and shipTime=sysdate() where oId=#{oId} and state=2
     </update>
 
     <!--买家确认接收到商品，修改订单状态-->

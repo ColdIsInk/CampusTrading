@@ -2,6 +2,7 @@ package com.dao;
 
 import com.entity.Goods;
 import com.entity.GoodsType;
+import org.apache.ibatis.annotations.Param;
 import org.springframework.stereotype.Repository;
 
 import java.util.List;
@@ -31,4 +32,6 @@ public interface GoodsDao {
     List<Goods> selectGoodsBySeller(String username);
 
     Goods queryGoodsDetail(int id);
+
+    int modifyGoodsNum(@Param("number")int number,@Param("gId")int gId);//卖家发货后，修改商品数量
 }

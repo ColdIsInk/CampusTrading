@@ -10,7 +10,7 @@
 <head>
     <title>商品详情页面</title>
     <link rel="stylesheet" type="text/css" href="../css/layui.css"/>
-    <link rel="stylesheet" type="text/css" href="../css/goodsDetail">
+    <link rel="stylesheet" type="text/css" href="../css/goodsDetail.css">
 </head>
 <body>
 <!--商品详细信息-->
@@ -119,7 +119,6 @@
         async:false,
         dataType:"json",
         success:function (data) {
-            console.log(data)
             var liHtml="";
             if(data.length==0){
                 $("#noEva").show();
@@ -138,13 +137,16 @@
     layui.use(['rate'], function() {
         var rate = layui.rate;
         //基础效果
+        var score=5;
+        console.log($("#evaluateUl li").eq(1).find("input").val());
         for(var i=0;i<$("#evaluateUl li").length;i++){
-            var score=$("#evaluateUl li").eq(i).find("input").val();
+            score=$("#evaluateUl li").eq(i).find("input").val();
             rate.render({
                 elem: '#test'+i,
-                value:score,
+                value:4,
                 readonly: true
-            })
+            });
+            rate.render();
         }
 
     });

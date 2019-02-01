@@ -40,4 +40,8 @@ public class GoodsService {
     public Goods queryGoodsDetail(int id){//根据ID查看商品详情
         return goodsDao.queryGoodsDetail(id);
     }
+
+    public int modifyGoodsNum(int number,int gId){
+        return goodsDao.modifyGoodsNum(number,gId);
+    }
 }

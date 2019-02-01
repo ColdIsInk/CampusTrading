@@ -15,22 +15,22 @@
         .notOrder{width: 400px;height: 160px;margin-left: auto;margin-right: auto;margin-top: 30px;display: none;}
         .notNode{margin-left: 30px;color: #666666;letter-spacing: 2px;}
         /*需要付款的订单的样式*/
-        .pendingPay{width: 900px;margin-right: auto;margin-left: auto;}
-        .pendingPay h3{width: 100%;text-align: center;font-size: 26px;letter-spacing: 2px;font-family: 华文隶书;margin-top: 20px;}
-        .pendingPay ul{margin-top: 16px;}
-        .pendingPay ul li{width:100%;height: 160px;margin-top: 16px;background: rgba(181,211,233,0.63)}
-        .pendingPay ul li>div{float: left;margin-left: 20px;}
-        .pendingPay ul li>div p{margin-top: 8px;}
-        .pendingPay ul li a{color: #555555;}
-        .pendingPay ul li a:hover{cursor: pointer;color: #ff780e}
-        .pendingPay ul li .pic{margin-left: 6px;}
-        .pendingPay ul li img{width: 150px;height: 150px;margin-top: 5px;}
-        .pendingPay ul li img:hover{cursor: pointer;}
-        .pendingPay ul li .goods{width: 220px;margin-top: 22px;}
-        .pendingPay ul li .price{width: 120px;margin-top: 22px;}
-        .pendingPay ul li .receive{width: 270px;height:142px;margin-top: 16px;overflow: hidden;color: #666666;}
-        .pendingPay ul li .receive p{margin-top: 4px;}
-        .pendingPay ul li .operate button{width: 36px;height: 110px;border-radius: 8px;line-height: 18px;margin-top: 22px;
+        .pendingShipped{width: 900px;margin-right: auto;margin-left: auto;}
+        .pendingShipped h3{width: 100%;text-align: center;font-size: 26px;letter-spacing: 2px;font-family: 华文隶书;margin-top: 20px;}
+        .pendingShipped ul{margin-top: 16px;}
+        .pendingShipped ul li{width:100%;height: 160px;margin-top: 16px;background: rgba(181,211,233,0.63)}
+        .pendingShipped ul li>div{float: left;margin-left: 20px;}
+        .pendingShipped ul li>div p{margin-top: 8px;}
+        .pendingShipped ul li a{color: #555555;}
+        .pendingShipped ul li a:hover{cursor: pointer;color: #ff780e}
+        .pendingShipped ul li .pic{margin-left: 6px;}
+        .pendingShipped ul li img{width: 150px;height: 150px;margin-top: 5px;}
+        .pendingShipped ul li img:hover{cursor: pointer;}
+        .pendingShipped ul li .goods{width: 220px;margin-top: 22px;}
+        .pendingShipped ul li .price{width: 120px;margin-top: 22px;}
+        .pendingShipped ul li .receive{width: 270px;height:142px;margin-top: 16px;overflow: hidden;color: #666666;}
+        .pendingShipped ul li .receive p{margin-top: 4px;}
+        .pendingShipped ul li .operate button{width: 36px;height: 110px;border-radius: 8px;line-height: 18px;margin-top: 22px;
             white-space: normal;padding: 0 9px;}
     </style>
 </head>
@@ -41,17 +41,17 @@
     <i class="notNode">您还没有相关订单哟</i>
 </div>
 <!--待发货的订单-->
-<div class="pendingPay" id="pendingPay">
+<div class="pendingShipped" id="pendingShipped">
     <h3>我的待发货的订单</h3>
-    <ul id="pendingPayUl"></ul>
+    <ul id="pendingShippedUl"></ul>
 </div>
 
 
 <script src="js/jquery-3.2.1.min.js"></script>
 <script src="js/layui.all.js"></script>
 <script>
-    //var uName=parent.$("#username").val();//获取买家，用户的用户名
-    var uName='绫清竹';
+    var uName=parent.$("#username").val();//获取买家，用户的用户名
+    //var uName='绫清竹';
     $.ajax({
         url:"/CampusTrading/PendingShipped",
         data:{"uName":uName},
@@ -60,7 +60,7 @@
         success:function (data) {
             if(data.length<=0){
                 $("#notOrder").show();
-                $("#pendingPay").hide();
+                $("#pendingShipped").hide();
             }
             else {
                 var payLi="";
@@ -104,7 +104,7 @@
                         "提醒发货</button></div></li>" ;
 
                 }
-                $("#pendingPayUl").append(payLi);
+                $("#pendingShippedUl").append(payLi);
             }
 
         }

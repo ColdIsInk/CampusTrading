@@ -116,9 +116,16 @@ public class GoodsController {
 
     @RequestMapping(value = "GetGoodsDetail" ,produces="application/json;charset=utf-8")
     @ResponseBody
-    public String getGoodsDetail(int gid){//查看商品详情,进入查看商品详情页面
+    public String getGoodsDetail(int gid){//根据商品ID得到商品详情,
         Goods goods=goodsService.queryGoodsDetail(gid);
         return JSONObject.toJSONString(goods);
+    }
+
+    @RequestMapping("ModifyGoodsNum")
+    @ResponseBody
+    public String modifyGoodsNum(int number,int gId){//卖家发货后，修改商品数量
+        int m=goodsService.modifyGoodsNum(number,gId);
+        return m>0?"1":"0";
     }
 
 }

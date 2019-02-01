@@ -44,7 +44,7 @@
             </a>
             <dl class="layui-nav-child">
                 <dd><a href="javaScript:void(0);" id="openShop" title="免费开店">免费开店</a></dd>
-                <dd><a href="" title="出售中的商品" id="onSale">出售中的商品&ensp;
+                <dd><a href="javaScript:void(0)" title="出售中的商品" id="onSale">出售中的商品&ensp;
                     <span style="color: rgba(238,90,150,0.98);font-size: 18px" id="goodsNum"></span></a></dd>
                 <dd><a href="/CampusTrading/NeedShippedView" id="mangeOrder" target="content" title="需处理的订单">需处理的订单
                     <span style="color: rgba(238,90,150,0.98);font-size: 18px" id="dealOrder"></span></a></dd>

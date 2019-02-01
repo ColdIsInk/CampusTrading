@@ -123,8 +123,8 @@ public class OrderController {
 
     @RequestMapping(value = "NeedShipped",produces = "application/json;charset=utf-8")
     @ResponseBody
-    public String needShipped(String uName){///查询卖家需处理的订单详细信息
-        List<Orders> list=orderService.needShipped(uName);
+    public String needShipped(String sName){///查询卖家需处理的订单详细信息
+        List<Orders> list=orderService.needShipped(sName);
         return JSONObject.toJSONString(list);
     }
 
@@ -154,6 +154,13 @@ public class OrderController {
     public String evaluateGoods(int oId){
         int e=orderService.evaluateGoods(oId);
         return e>0?"1":"0";
+    }
+
+    @RequestMapping("SendGoods")
+    @ResponseBody
+    public String sendGoods(int oId){//卖家发货修改订单
+        int s=orderService.sendGoods(oId);
+        return s>0?"1":"0";
     }
 
 

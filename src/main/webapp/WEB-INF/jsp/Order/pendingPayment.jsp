@@ -70,8 +70,8 @@
 <script src="js/jquery-3.2.1.min.js"></script>
 <script src="js/layui.all.js"></script>
 <script>
-    //var uName=parent.$("#username").val();//获取买家，用户的用户名
-    var uName='绫清竹';
+    var uName=parent.$("#username").val();//获取买家，用户的用户名
+    //var uName='绫清竹';
     //请求我的待付款的订单
     $.ajax({
         url:"/CampusTrading/PendingPayment",

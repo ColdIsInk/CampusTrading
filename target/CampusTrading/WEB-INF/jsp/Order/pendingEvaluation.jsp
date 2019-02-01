@@ -15,20 +15,20 @@
         .notOrder{width: 400px;height: 160px;margin-left: auto;margin-right: auto;margin-top: 30px;display: none;}
         .notNode{margin-left: 24px;color: #666666;letter-spacing: 2px;}
         /*需要付款的订单的样式*/
-        .pendingPay{width: 740px;margin-right: auto;margin-left: auto;}
-        .pendingPay h3{width: 100%;text-align: center;font-size: 26px;letter-spacing: 2px;font-family: 华文隶书;margin-top: 20px;}
-        .pendingPay ul{margin-top: 16px;}
-        .pendingPay ul li{width:100%;height: 160px;margin-top: 16px;background: rgba(181,211,233,0.63)}
-        .pendingPay ul li>div{float: left;margin-left: 20px;}
-        .pendingPay ul li>div p{margin-top: 8px;}
-        .pendingPay ul li a{color: #555555;}
-        .pendingPay ul li a:hover{cursor: pointer;color: #ff780e}
-        .pendingPay ul li .pic{margin-left: 6px;}
-        .pendingPay ul li img{width: 170px;height: 150px;margin-top: 5px;}
-        .pendingPay ul li img:hover{cursor: pointer;}
-        .pendingPay ul li .goods{width: 240px;margin-top: 22px;}
-        .pendingPay ul li .price{width: 130px;margin-top: 22px;}
-        .pendingPay ul li .operate button{margin-top: 10px;margin-top: 50px;font-size: 16px;border-radius: 20px;}
+        .pendingEva{width: 740px;margin-right: auto;margin-left: auto;}
+        .pendingEva h3{width: 100%;text-align: center;font-size: 26px;letter-spacing: 2px;font-family: 华文隶书;margin-top: 20px;}
+        .pendingEva ul{margin-top: 16px;}
+        .pendingEva ul li{width:100%;height: 160px;margin-top: 16px;background: rgba(181,211,233,0.63)}
+        .pendingEva ul li>div{float: left;margin-left: 20px;}
+        .pendingEva ul li>div p{margin-top: 8px;}
+        .pendingEva ul li a{color: #555555;}
+        .pendingEva ul li a:hover{cursor: pointer;color: #ff780e}
+        .pendingEva ul li .pic{margin-left: 6px;}
+        .pendingEva ul li img{width: 170px;height: 150px;margin-top: 5px;}
+        .pendingEva ul li img:hover{cursor: pointer;}
+        .pendingEva ul li .goods{width: 240px;margin-top: 22px;}
+        .pendingEva ul li .price{width: 130px;margin-top: 22px;}
+        .pendingEva ul li .operate button{margin-top: 10px;margin-top: 50px;font-size: 16px;border-radius: 20px;}
         /*评价框*/
         .evaluate{width: 324px;margin-top: 20px;
             margin-right: auto;margin-left: auto;display: none;}
@@ -45,9 +45,9 @@
     <i class="notNode">您还没有相关订单哟</i>
 </div>
 <!--待收货的订单-->
-<div class="pendingPay" id="pendingPay">
-    <h3>我的待收货的订单</h3>
-    <ul id="pendingPayUl"></ul>
+<div class="pendingEva" id="pendingEva">
+    <h3>我的待评价的订单</h3>
+    <ul id="pendingEvaUl"></ul>
 </div>
 
 <!--评价商品-->
@@ -64,8 +64,8 @@
 <script src="js/jquery-3.2.1.min.js"></script>
 <script src="js/layui.all.js"></script>
 <script>
-    //var uName=parent.$("#username").val();//获取买家，用户的用户名
-    var uName='绫清竹';
+    var uName=parent.$("#username").val();//获取买家，用户的用户名
+    //var uName='绫清竹';
     //请求待评价的订单
     $.ajax({
         url:"/CampusTrading/PendingEvaluation",
@@ -75,7 +75,7 @@
         success:function (data) {
             if(data.length<=0){
                 $("#notOrder").show();
-                $("#pendingPay").hide();
+                $("#pendingEva").hide();
             }
             else {
                 var payLi="";
@@ -114,7 +114,7 @@
                         "onclick='Evaluation("+data[i].oId+","+data[i].gId+",&#39"+goodsDetail.picture+"&#39;)' title='评价'>评&emsp;价</button></div> </li>";;
 
                 }
-                $("#pendingPayUl").append(payLi);
+                $("#pendingEvaUl").append(payLi);
             }
 
         }
