@@ -44,4 +44,8 @@ public class GoodsService {
     public int modifyGoodsNum(int number,int gId){
         return goodsDao.modifyGoodsNum(number,gId);
     }
+
+    public int editGoodsInfo(Goods goods){
+        return goodsDao.editGoodsInfo(goods);
+    }
 }

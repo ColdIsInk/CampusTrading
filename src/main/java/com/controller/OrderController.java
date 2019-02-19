@@ -74,17 +74,17 @@ public class OrderController {
     }
 
     @RequestMapping("ShippedView")
-    public String shippedView(){//进入待付款的页面
+    public String shippedView(){//进入待发货的页面
         return "Order/pendingShipped";
     }
 
     @RequestMapping("ReceiptView")
-    public String receiptView(){//进入待付款的页面
+    public String receiptView(){//进入待收货的页面
         return "Order/pendingReceipt";
     }
 
     @RequestMapping("EvaluateView")
-    public String evaluationView(){//进入待付款的页面
+    public String evaluationView(){//进入待评价的页面
         return "Order/pendingEvaluation";
     }
 

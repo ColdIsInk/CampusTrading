@@ -107,10 +107,15 @@ public class GoodsController {
         return String.valueOf(s);
     }
 
+    @RequestMapping("GoodsOfSellerView")
+    public String goodsOfSeller(){//卖家进入查看自己正在出售的商品信息页面
+        return "Goods/goodsOfSeller";
+    }
+
     @RequestMapping(value = "SelectGoodsBySeller" ,produces="application/json;charset=utf-8")
     @ResponseBody
-    public  String selectGoodsBySeller(String username){//根据卖家的姓名查询卖家正在出售的商品信息
-        List<Goods> list=goodsService.selectGoodsBySeller(username);
+    public  String selectGoodsBySeller(String sName){//根据卖家的姓名查询卖家正在出售的商品信息
+        List<Goods> list=goodsService.selectGoodsBySeller(sName);
         return JSONObject.toJSONString(list);
     }
 
@@ -126,6 +131,13 @@ public class GoodsController {
     public String modifyGoodsNum(int number,int gId){//卖家发货后，修改商品数量
         int m=goodsService.modifyGoodsNum(number,gId);
         return m>0?"1":"0";
+    }
+
+    @RequestMapping("EditGoodsInfo")
+    @ResponseBody
+    public String editGoodsInfo(Goods goods){
+        int e=goodsService.editGoodsInfo(goods);
+        return e>0?"1":"0";
     }
 
 }

@@ -73,6 +73,7 @@
 <script src="../js/jquery-3.2.1.min.js"></script>
 <script src="../js/layui.all.js"></script>
 <script>
+    //获取商品的所有的类型
     $.ajax({
         url:"/CampusTrading/GetGoodsType",
         type:"post",
@@ -81,11 +82,8 @@
             var option="";
             for(var i=0;i<res.length;i++){
                 option+="<option value='"+res[i].id+"'>"+res[i].name+"</option>";
-
-            }
-            $("#typeId").append(option);
+            }$("#typeId").append(option);
         }
-
     });
 
     //点击发布按钮，发布新商品

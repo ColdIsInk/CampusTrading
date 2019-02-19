@@ -34,4 +34,6 @@ public interface GoodsDao {
     Goods queryGoodsDetail(int id);
 
     int modifyGoodsNum(@Param("number")int number,@Param("gId")int gId);//卖家发货后，修改商品数量
+
+    int editGoodsInfo(Goods goods);
 }

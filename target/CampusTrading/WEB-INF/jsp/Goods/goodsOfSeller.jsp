@@ -24,7 +24,7 @@
         .allGoodsInfo .price span{color: #ff8511;font-size: 16px;}
         .allGoodsInfo .edit{width: 120px;margin-left: 20px;margin-top:50px;}
         .allGoodsInfo ul li .edit button{border-radius: 10px;}
-        .oneGoodsInfo{width: 394px;height: 340px;margin-left: auto;margin-right: auto;display: none;}
+        .oneGoodsInfo{width: 394px;height: 340px;margin-left: auto;margin-right: auto;background: #e7ffda}
         .oneGoodsInfo form{padding-top: 20px;}
         .oneGoodsInfo form div{width: 390px;margin-top: 8px;}
         .oneGoodsInfo form div label{display:inline-block;margin-left: 10px;width: 60px;}
@@ -49,7 +49,6 @@
 <!--当点击每个商品后面的编辑按钮后，弹出该商品的基本信息，进行修改-->
 <div class="oneGoodsInfo" id="oneGoodsInfo">
     <form id="form" enctype="multipart/form-data">
-        <input type="hidden" name="g_id" id="gId">
         <div>
             <label>商品名称</label>
             <input type="text" name="name" id="name">
@@ -122,7 +121,6 @@
         location.href="/CampusTrading/AddGoods/"+sName;
     });
 
-    var infoIndex=null;//某件商品的信息的弹窗的索引
     //点击编辑商品信息按钮，对商品进行的内容进行修改
     function editGoods(gId) {
         //先根据商品ID请求商品的基本信息
@@ -133,27 +131,11 @@
             dataType:"json",
             success:function (data) {
                 //该表单里面的东西赋值
-                $("#gId").val(data.gid);
                 $("#name").val(data.name);
                 $("#content").val(data.content);
                 $("#typeId").val(data.type_id);
                 $("#number").val(data.number);
                 $("#price").val(data.price);
-                //查询成功，显示出该商品基本信息的弹窗
-                layui.use("layer",function () {
-                   var layer=layui.layer;
-                    infoIndex=layer.open({
-                       type:1,
-                       title:['编辑商品','font-size:16px'],
-                       anim:5,
-                       area:["420px",'380px'],
-                       shade: [0.4, '#cccccc'],
-                       content:$('#oneGoodsInfo'),
-                       cancel:function (index) {
-                           $('#oneGoodsInfo').hide();
-                       },
-                   });
-                });
             }
         })
     }
@@ -161,29 +143,11 @@
     //点击编辑里面的保存按钮，对修改的商品信息进行修改
     $("#keep").click(function () {
         var form=$("#form").serialize();
-        $.ajax({
-            url:"/CampusTrading/EditGoodsInfo",
-            data:form,
-            type:"post",
-            success:function (data) {
-                if(data=="1"){
-                    layer.alert("商品信息修改成功",function () {
-                       window.location.reload();
-                        layer.close(infoIndex);
-                        $('#oneGoodsInfo').hide();
-                    });
-                }
-                else {
-                    layer.alert("商品信息修改失败");
-                }
-            }
-        })
         console.log(form);
     });
     //点击编辑里面的取消按钮，取消修改，隐藏改件商品的信息
     $("#cancel").click(function () {
-        layer.close(infoIndex);
-        $('#oneGoodsInfo').hide();
+        
     });
 
 </script>

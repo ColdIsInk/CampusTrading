@@ -46,4 +46,9 @@
         update goods set number=number-#{number} where g_id=#{gId}
     </update>
 
+    <!--卖家修改自己正在出售的商品的基本信息-->
+    <update id="editGoodsInfo" parameterType="com.entity.Goods">
+        update goods set name=#{name},price=#{price},number=#{number},type_id=#{type_id},content=#{content} where g_id=#{gId}
+    </update>
+
 </mapper>

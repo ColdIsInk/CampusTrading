@@ -10,39 +10,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2231f1ac-113d-42e1-8971-8ff23275ab4e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/noGoods.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/CampusTrading/WEB-INF/jsp/Goods/goodsOfSeller.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/CampusTrading/images/noGoods.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/controller/GoodsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/controller/GoodsController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/controller/OrderController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/controller/OrderController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/dao/GoodsDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dao/GoodsDao.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/mapper/GoodsMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mapper/GoodsMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mapper/OrderMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mapper/OrderMapper.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/service/GoodsService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/service/GoodsService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/Goods/goodsDetail.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/Goods/goodsDetail.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/Goods/addGoods.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/Goods/addGoods.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/Goods/goodsOfSeller.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/Goods/goodsOfSeller.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/Login/userIndex.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/Login/userIndex.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/Order/needShipped.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/Order/needShipped.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/Order/pendingEvaluation.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/Order/pendingEvaluation.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/Order/pendingPayment.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/Order/pendingPayment.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/Order/pendingReceipt.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/Order/pendingReceipt.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/Order/pendingShipped.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/Order/pendingShipped.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/CampusTrading/WEB-INF/classes/com/controller/GoodsController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/CampusTrading/WEB-INF/classes/com/controller/GoodsController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/CampusTrading/WEB-INF/classes/com/controller/OrderController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/CampusTrading/WEB-INF/classes/com/controller/OrderController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/CampusTrading/WEB-INF/classes/com/dao/GoodsDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/CampusTrading/WEB-INF/classes/com/dao/GoodsDao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/CampusTrading/WEB-INF/classes/com/mapper/GoodsMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/CampusTrading/WEB-INF/classes/com/mapper/GoodsMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/CampusTrading/WEB-INF/classes/com/mapper/OrderMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/CampusTrading/WEB-INF/classes/com/mapper/OrderMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/CampusTrading/WEB-INF/classes/com/service/GoodsService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/CampusTrading/WEB-INF/classes/com/service/GoodsService.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/CampusTrading/WEB-INF/jsp/Goods/goodsDetail.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/CampusTrading/WEB-INF/jsp/Goods/goodsDetail.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/CampusTrading/WEB-INF/jsp/Login/userIndex.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/CampusTrading/WEB-INF/jsp/Login/userIndex.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/CampusTrading/WEB-INF/jsp/Order/needShipped.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/CampusTrading/WEB-INF/jsp/Order/needShipped.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/CampusTrading/WEB-INF/jsp/Order/pendingEvaluation.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/CampusTrading/WEB-INF/jsp/Order/pendingEvaluation.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/CampusTrading/WEB-INF/jsp/Order/pendingPayment.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/CampusTrading/WEB-INF/jsp/Order/pendingPayment.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/CampusTrading/WEB-INF/jsp/Order/pendingReceipt.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/CampusTrading/WEB-INF/jsp/Order/pendingReceipt.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/CampusTrading/WEB-INF/jsp/Order/pendingShipped.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/CampusTrading/WEB-INF/jsp/Order/pendingShipped.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/controller/GoodsController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/controller/GoodsController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/controller/OrderController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/controller/OrderController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/dao/GoodsDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/dao/GoodsDao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mapper/GoodsMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/mapper/GoodsMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mapper/OrderMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/mapper/OrderMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/service/GoodsService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/service/GoodsService.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -76,21 +60,21 @@
     <session id="196039384">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="65" />
+          <entry key="project.closed" value="74" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.110" value="1" />
           <entry key="project.open.time.130" value="1" />
-          <entry key="project.open.time.2" value="7" />
+          <entry key="project.open.time.2" value="13" />
           <entry key="project.open.time.24" value="1" />
           <entry key="project.open.time.26" value="2" />
           <entry key="project.open.time.27" value="1" />
           <entry key="project.open.time.28" value="2" />
           <entry key="project.open.time.29" value="1" />
-          <entry key="project.open.time.3" value="2" />
+          <entry key="project.open.time.3" value="3" />
           <entry key="project.open.time.34" value="1" />
           <entry key="project.open.time.4" value="2" />
           <entry key="project.open.time.43" value="1" />
-          <entry key="project.open.time.5" value="1" />
+          <entry key="project.open.time.5" value="4" />
           <entry key="project.open.time.55" value="1" />
           <entry key="project.open.time.58" value="3" />
           <entry key="project.open.time.59" value="1" />
@@ -116,26 +100,27 @@
           <entry key="project.open.time.85" value="2" />
           <entry key="project.open.time.91" value="1" />
           <entry key="project.open.time.98" value="1" />
-          <entry key="project.opened" value="65" />
+          <entry key="project.opened" value="75" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
+          <entry key="c" value="1" />
           <entry key="class" value="107" />
           <entry key="css" value="64" />
           <entry key="fxml" value="2" />
           <entry key="html" value="3" />
-          <entry key="ico" value="2" />
-          <entry key="java" value="235" />
+          <entry key="ico" value="3" />
+          <entry key="java" value="241" />
           <entry key="js" value="18" />
-          <entry key="jsp" value="209" />
+          <entry key="jsp" value="221" />
           <entry key="kt" value="1" />
           <entry key="png" value="1" />
           <entry key="properties" value="6" />
           <entry key="svg" value="2" />
           <entry key="tld" value="4" />
           <entry key="ttf" value="2" />
-          <entry key="xml" value="114" />
+          <entry key="xml" value="116" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
@@ -144,14 +129,15 @@
           <entry key="CSS" value="64" />
           <entry key="Font" value="2" />
           <entry key="HTML" value="3" />
-          <entry key="Image" value="3" />
-          <entry key="JAVA" value="235" />
-          <entry key="JSP" value="209" />
+          <entry key="Image" value="4" />
+          <entry key="JAVA" value="241" />
+          <entry key="JSP" value="221" />
           <entry key="JavaScript" value="18" />
           <entry key="Kotlin" value="1" />
+          <entry key="PLAIN_TEXT" value="1" />
           <entry key="Properties" value="6" />
           <entry key="SVG" value="2" />
-          <entry key="XML" value="120" />
+          <entry key="XML" value="122" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -161,25 +147,25 @@
           <entry key="dummy" value="16" />
           <entry key="fxml" value="9" />
           <entry key="html" value="23" />
-          <entry key="java" value="11553" />
-          <entry key="jsp" value="29991" />
+          <entry key="java" value="11740" />
+          <entry key="jsp" value="32187" />
           <entry key="properties" value="27" />
           <entry key="tld" value="78" />
-          <entry key="txt" value="36" />
-          <entry key="xml" value="4344" />
+          <entry key="txt" value="52" />
+          <entry key="xml" value="4485" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CLASS" value="2" />
           <entry key="CSS" value="1656" />
-          <entry key="HTML" value="55" />
-          <entry key="JAVA" value="11553" />
-          <entry key="JSP" value="29959" />
-          <entry key="PLAIN_TEXT" value="52" />
+          <entry key="HTML" value="59" />
+          <entry key="JAVA" value="11740" />
+          <entry key="JSP" value="32151" />
+          <entry key="PLAIN_TEXT" value="68" />
           <entry key="Properties" value="27" />
           <entry key="SQL" value="14" />
-          <entry key="XML" value="4417" />
+          <entry key="XML" value="4558" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.spring.core.usages.trigger">
@@ -194,87 +180,61 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/controller/GoodsController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="331">
-              <caret line="125" column="51" selection-start-line="125" selection-start-column="48" selection-end-line="125" selection-end-column="51" />
+            <state relative-caret-position="376">
+              <caret line="135" column="34" selection-start-line="135" selection-start-column="21" selection-end-line="135" selection-end-column="34" />
               <folding>
+                <element signature="method#addGoods#0;class#GoodsController#0" />
                 <element signature="method#getGoodsType#0;class#GoodsController#0" />
                 <element signature="method#publishGoods#0;class#GoodsController#0" />
+                <element signature="method#selectGoods#0;class#GoodsController#0" />
+                <element signature="method#queryGoodsByName#0;class#GoodsController#0" />
                 <element signature="method#queryGoodsDetail#0;class#GoodsController#0" />
+                <element signature="method#selectGoodsNumBySeller#0;class#GoodsController#0" />
                 <element signature="method#selectGoodsBySeller#0;class#GoodsController#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/Order/needShipped.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="431">
-              <caret line="31" column="74" selection-start-line="31" selection-start-column="74" selection-end-line="31" selection-end-column="74" />
-              <folding>
-                <element signature="e#2202#4869#0#HTML" />
-                <element signature="e#139#145#0" expanded="true" />
-                <element signature="e#156#162#0" expanded="true" />
-                <element signature="e#172#178#0" expanded="true" />
-                <element signature="e#219#225#0" expanded="true" />
-                <element signature="e#238#244#0" expanded="true" />
-                <element signature="e#257#263#0" expanded="true" />
-                <element signature="e#6#12#0" expanded="true" />
-                <element signature="e#104#110#0" expanded="true" />
-                <element signature="e#4929#4937#0#HTML" />
-                <element signature="e#4946#5000#0#HTML" />
+                <element signature="method#getGoodsDetail#0;class#GoodsController#0" />
+                <element signature="method#modifyGoodsNum#0;class#GoodsController#0" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/Goods/goodsDetail.jsp">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/Goods/goodsOfSeller.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="473">
-              <caret line="148" column="26" selection-start-line="148" selection-start-column="26" selection-end-line="148" selection-end-column="26" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/controller/OrderController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="160">
-              <caret line="118" column="36" selection-start-line="118" selection-start-column="21" selection-end-line="118" selection-end-column="36" />
+            <state relative-caret-position="375">
+              <caret line="176" column="44" lean-forward="true" selection-start-line="176" selection-start-column="20" selection-end-line="176" selection-end-column="44" />
               <folding>
-                <element signature="method#createOrder#0;class#OrderController#0" />
-                <element signature="method#needShippedNum#0;class#OrderController#0" />
-                <element signature="method#createOrder#1;class#OrderController#0" />
-                <element signature="method#pendingPayment#0;class#OrderController#0" />
-                <element signature="method#pendingShipped#0;class#OrderController#0" />
-                <element signature="method#pendingEvaluation#0;class#OrderController#0" />
-                <element signature="method#deleteOrder#0;class#OrderController#0" />
-                <element signature="method#receiveGoods#0;class#OrderController#0" />
+                <element signature="n#style#0;n#label#0;n#div#1;n#form#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="e#2829#3632#0#HTML" />
+                <element signature="e#91#97#0" expanded="true" />
+                <element signature="e#121#127#0" expanded="true" />
+                <element signature="e#3664#4010#0#HTML" />
+                <element signature="e#4216#4588#0#HTML" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/mapper/OrderMapper.xml">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/Order/pendingEvaluation.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="53" column="59" selection-start-line="53" selection-start-column="54" selection-end-line="53" selection-end-column="59" />
+            <state relative-caret-position="439">
+              <caret line="157" column="18" lean-forward="true" selection-start-line="148" selection-start-column="16" selection-end-line="157" selection-end-column="18" />
+              <folding>
+                <element signature="e#139#145#0" expanded="true" />
+                <element signature="e#156#162#0" expanded="true" />
+                <element signature="e#172#178#0" expanded="true" />
+                <element signature="e#314#320#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/service/OrderService.java">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/Login/userIndex.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="376">
-              <caret line="68" column="24" selection-start-line="68" selection-start-column="15" selection-end-line="68" selection-end-column="24" />
-              <folding>
-                <element signature="method#allKindsOrderNum#0;class#OrderService#0" />
-                <element signature="e#1507#1508#0" expanded="true" />
-                <element signature="e#1568#1569#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="521">
+              <caret line="50" column="52" selection-start-line="50" selection-start-column="44" selection-end-line="50" selection-end-column="52" />
             </state>
           </provider>
         </entry>
@@ -290,10 +250,10 @@
         <option value="Tag Library Descriptor" />
         <option value="FxmlFile" />
         <option value="spring-beans.schema" />
-        <option value="Jsp File" />
         <option value="Interface" />
         <option value="Class" />
         <option value="CSS File" />
+        <option value="Jsp File" />
       </list>
     </option>
   </component>
@@ -303,7 +263,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/Login/adminIndex.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/com/controller/LoginController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/dao/NoticeDao.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/service/NoticeService.java" />
@@ -334,7 +293,6 @@
         <option value="$PROJECT_DIR$/src/main/java/com/entity/Evaluate.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/controller/EvaluateController.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/Goods/myCart.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/Goods/addGoods.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/com/mapper/AddressMapper.xml" />
         <option value="$PROJECT_DIR$/src/main/webapp/index.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/css/goodsDetail.css" />
@@ -342,18 +300,20 @@
         <option value="$PROJECT_DIR$/src/main/java/com/dao/OrderDao.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/service/OrderService.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/Order/pendingPayment.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/Order/pendingReceipt.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/Order/pendingShipped.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/Order/pendingEvaluation.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/mapper/OrderMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/Order/needShipped.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/Goods/goodsDetail.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/Login/userIndex.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/Goods/addGoods.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/controller/OrderController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/mapper/GoodsMapper.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/dao/GoodsDao.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/service/GoodsService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/controller/GoodsController.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/Order/pendingReceipt.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/Order/pendingShipped.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/Order/pendingEvaluation.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/Login/userIndex.jsp" />
-        <option value="$PROJECT_DIR$/src/main/java/com/controller/OrderController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/mapper/OrderMapper.xml" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/Order/needShipped.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/Goods/goodsDetail.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/Goods/goodsOfSeller.jsp" />
       </list>
     </option>
   </component>
@@ -418,8 +378,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="AndroidView" />
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -458,7 +419,9 @@
               <item name="CampusTrading" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="CampusTrading" type="b2602c69:ProjectViewProjectNode" />
@@ -466,7 +429,6 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="CampusTrading" type="b2602c69:ProjectViewProjectNode" />
@@ -475,15 +437,6 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="webapp" type="462c0819:PsiDirectoryNode" />
               <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CampusTrading" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CampusTrading" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-              <item name="jsp" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="CampusTrading" type="b2602c69:ProjectViewProjectNode" />
@@ -493,13 +446,21 @@
               <item name="webapp" type="462c0819:PsiDirectoryNode" />
               <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
               <item name="jsp" type="462c0819:PsiDirectoryNode" />
-              <item name="Goods" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CampusTrading" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CampusTrading" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+              <item name="jsp" type="462c0819:PsiDirectoryNode" />
+              <item name="Order" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -512,7 +473,7 @@
     <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548987877893" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550561382549" />
     <property name="last_opened_file_path" value="$MAVEN_REPOSITORY$/com/alibaba/fastjson/1.2.29/fastjson-1.2.29.jar!/" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -520,7 +481,7 @@
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+    <property name="settings.editor.selected.configurable" value="project.propCompiler" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -700,11 +661,29 @@
       <workItem from="1548841494975" duration="167000" />
       <workItem from="1548898517370" duration="2962000" />
       <workItem from="1548904889820" duration="2935000" />
+      <workItem from="1548987688468" duration="1558000" />
+      <workItem from="1549003458411" duration="268000" />
+      <workItem from="1549004732816" duration="1806000" />
+      <workItem from="1549009377577" duration="1339000" />
+      <workItem from="1549960086097" duration="101000" />
+      <workItem from="1549960248988" duration="876000" />
+      <workItem from="1549961299693" duration="344000" />
+      <workItem from="1549962775024" duration="288000" />
+      <workItem from="1550558788682" duration="2681000" />
+      <workItem from="1550561740302" duration="6366000" />
     </task>
+    <task id="LOCAL-00001" summary="卖家处理订单，发货，修改商品数量">
+      <created>1548987997993</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1548987997993</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="367922000" />
+    <option name="totallyTimeSpent" value="383549000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -719,7 +698,7 @@
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24508321" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28441754" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -729,13 +708,13 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Application Servers" order="0" sideWeight="0.49924356" weight="0.3295082" />
       <window_info anchor="bottom" id="Message" order="1" />
-      <window_info anchor="bottom" id="Find" order="2" weight="0.050819673" />
-      <window_info anchor="bottom" id="Run" order="3" sideWeight="0.49848714" weight="0.024630541" />
+      <window_info anchor="bottom" id="Find" order="2" visible="true" weight="0.049261082" />
+      <window_info anchor="bottom" id="Run" order="3" sideWeight="0.49848714" weight="0.022988506" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="Version Control" order="6" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" auto_hide="true" id="Debug" order="8" sideWeight="0.4977307" type="SLIDING" weight="0.0952381" />
+      <window_info anchor="bottom" auto_hide="true" id="Debug" order="8" sideWeight="0.4977307" type="SLIDING" weight="0.18390805" />
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.2590164" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50075644" side_tool="true" weight="0.32840723" />
       <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.49924356" weight="0.124590166" />
@@ -800,7 +779,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="买家评价商品，添加一条评价，并修改订单状态" />
     <MESSAGE value="买家评价商品" />
-    <option name="LAST_COMMIT_MESSAGE" value="买家评价商品" />
+    <MESSAGE value="卖家处理订单，发货，修改商品数量" />
+    <option name="LAST_COMMIT_MESSAGE" value="卖家处理订单，发货，修改商品数量" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>
@@ -823,27 +803,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/js/distpicker.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="513">
-          <caret line="35" column="21" selection-start-line="35" selection-start-column="11" selection-end-line="35" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/User/basicInfo.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-264">
-          <caret line="45" column="64" selection-start-line="45" selection-start-column="64" selection-end-line="45" selection-end-column="64" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/Notice/noticeList.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="660">
-          <caret line="75" column="11" selection-start-line="75" selection-start-column="11" selection-end-line="75" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/4.3.10.RELEASE/spring-web-4.3.10.RELEASE.jar!/org/springframework/web/context/request/AbstractRequestAttributes.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="266">
@@ -967,20 +926,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/Goods/addGoods.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1026">
-          <caret line="54" column="28" selection-start-line="54" selection-start-column="28" selection-end-line="54" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/entity/Goods.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="522">
-          <caret line="48" selection-start-line="48" selection-end-line="48" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/dao/AddressDao.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="209">
@@ -1068,27 +1013,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/dao/GoodsDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="393">
-          <caret line="35" column="22" selection-start-line="35" selection-start-column="8" selection-end-line="35" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/service/GoodsService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="436">
-          <caret line="43" column="29" selection-start-line="43" selection-start-column="15" selection-end-line="43" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mapper/GoodsMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="388">
-          <caret line="45" column="65" selection-start-line="45" selection-start-column="62" selection-end-line="45" selection-end-column="65" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/Order/pendingReceipt.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1229">
@@ -1112,51 +1036,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/Order/pendingEvaluation.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1425">
-          <caret line="116" column="30" selection-start-line="116" selection-start-column="30" selection-end-line="116" selection-end-column="30" />
-          <folding>
-            <element signature="e#139#145#0" expanded="true" />
-            <element signature="e#156#162#0" expanded="true" />
-            <element signature="e#172#178#0" expanded="true" />
-            <element signature="e#314#320#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/Login/userIndex.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-74">
-          <caret line="46" column="47" selection-start-line="46" selection-start-column="47" selection-end-line="46" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/service/OrderService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="376">
-          <caret line="68" column="24" selection-start-line="68" selection-start-column="15" selection-end-line="68" selection-end-column="24" />
-          <folding>
-            <element signature="method#allKindsOrderNum#0;class#OrderService#0" />
-            <element signature="e#1507#1508#0" expanded="true" />
-            <element signature="e#1568#1569#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/controller/GoodsController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="331">
-          <caret line="125" column="51" selection-start-line="125" selection-start-column="48" selection-end-line="125" selection-end-column="51" />
-          <folding>
-            <element signature="method#getGoodsType#0;class#GoodsController#0" />
-            <element signature="method#publishGoods#0;class#GoodsController#0" />
-            <element signature="method#queryGoodsDetail#0;class#GoodsController#0" />
-            <element signature="method#selectGoodsBySeller#0;class#GoodsController#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/Order/pendingPayment.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="351">
@@ -1164,20 +1043,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/controller/OrderController.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/service/OrderService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="118" column="36" selection-start-line="118" selection-start-column="21" selection-end-line="118" selection-end-column="36" />
-          <folding>
-            <element signature="method#createOrder#0;class#OrderController#0" />
-            <element signature="method#needShippedNum#0;class#OrderController#0" />
-            <element signature="method#createOrder#1;class#OrderController#0" />
-            <element signature="method#pendingPayment#0;class#OrderController#0" />
-            <element signature="method#pendingShipped#0;class#OrderController#0" />
-            <element signature="method#pendingEvaluation#0;class#OrderController#0" />
-            <element signature="method#deleteOrder#0;class#OrderController#0" />
-            <element signature="method#receiveGoods#0;class#OrderController#0" />
-          </folding>
+        <state relative-caret-position="376">
+          <caret line="68" column="24" selection-start-line="68" selection-start-column="15" selection-end-line="68" selection-end-column="24" />
         </state>
       </provider>
     </entry>
@@ -1188,30 +1057,135 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/Order/needShipped.jsp">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/Goods/goodsDetail.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="431">
-          <caret line="31" column="74" selection-start-line="31" selection-start-column="74" selection-end-line="31" selection-end-column="74" />
+        <state relative-caret-position="209">
+          <caret line="11" column="68" lean-forward="true" selection-start-line="11" selection-start-column="68" selection-end-line="11" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="http://localhost:8080/favicon.ico">
+      <provider selected="true" editor-type-id="httpFileEditor" />
+      <provider editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="455">
+          <caret line="24" column="40" selection-start-line="24" selection-start-column="40" selection-end-line="24" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/Goods/addGoods.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="24" column="63" selection-start-line="24" selection-start-column="57" selection-end-line="24" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/controller/OrderController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="241">
+          <caret line="85" column="33" selection-start-line="85" selection-start-column="21" selection-end-line="85" selection-end-column="33" />
           <folding>
-            <element signature="e#2202#4869#0#HTML" />
-            <element signature="e#139#145#0" expanded="true" />
-            <element signature="e#156#162#0" expanded="true" />
-            <element signature="e#172#178#0" expanded="true" />
-            <element signature="e#219#225#0" expanded="true" />
-            <element signature="e#238#244#0" expanded="true" />
-            <element signature="e#257#263#0" expanded="true" />
-            <element signature="e#6#12#0" expanded="true" />
-            <element signature="e#104#110#0" expanded="true" />
-            <element signature="e#4929#4937#0#HTML" />
-            <element signature="e#4946#5000#0#HTML" />
+            <element signature="method#createOrder#1;class#OrderController#0" />
+            <element signature="e#2868#2869#0" expanded="true" />
+            <element signature="e#2926#2927#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/Goods/goodsDetail.jsp">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/entity/Goods.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="473">
-          <caret line="148" column="26" selection-start-line="148" selection-start-column="26" selection-end-line="148" selection-end-column="26" />
+        <state relative-caret-position="47">
+          <caret line="6" column="20" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/Order/needShipped.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-557">
+          <caret line="54" column="27" selection-start-line="54" selection-start-column="14" selection-end-line="54" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/Order/pendingEvaluation.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="439">
+          <caret line="157" column="18" lean-forward="true" selection-start-line="148" selection-start-column="16" selection-end-line="157" selection-end-column="18" />
+          <folding>
+            <element signature="e#139#145#0" expanded="true" />
+            <element signature="e#156#162#0" expanded="true" />
+            <element signature="e#172#178#0" expanded="true" />
+            <element signature="e#314#320#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mapper/GoodsMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="49" column="29" selection-start-line="49" selection-start-column="16" selection-end-line="49" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/dao/GoodsDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="455">
+          <caret line="37" column="35" lean-forward="true" selection-start-line="37" selection-start-column="4" selection-end-line="37" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/service/GoodsService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="521">
+          <caret line="48" column="45" selection-start-line="48" selection-start-column="45" selection-end-line="48" selection-end-column="45" />
+          <folding>
+            <element signature="e#557#558#0" expanded="true" />
+            <element signature="e#602#603#0" expanded="true" />
+            <element signature="e#1258#1259#0" expanded="true" />
+            <element signature="e#1288#1289#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/Login/userIndex.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="521">
+          <caret line="50" column="52" selection-start-line="50" selection-start-column="44" selection-end-line="50" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/controller/GoodsController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="376">
+          <caret line="135" column="34" selection-start-line="135" selection-start-column="21" selection-end-line="135" selection-end-column="34" />
+          <folding>
+            <element signature="method#addGoods#0;class#GoodsController#0" />
+            <element signature="method#getGoodsType#0;class#GoodsController#0" />
+            <element signature="method#publishGoods#0;class#GoodsController#0" />
+            <element signature="method#selectGoods#0;class#GoodsController#0" />
+            <element signature="method#queryGoodsByName#0;class#GoodsController#0" />
+            <element signature="method#queryGoodsDetail#0;class#GoodsController#0" />
+            <element signature="method#selectGoodsNumBySeller#0;class#GoodsController#0" />
+            <element signature="method#selectGoodsBySeller#0;class#GoodsController#0" />
+            <element signature="method#getGoodsDetail#0;class#GoodsController#0" />
+            <element signature="method#modifyGoodsNum#0;class#GoodsController#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/Goods/goodsOfSeller.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="176" column="44" lean-forward="true" selection-start-line="176" selection-start-column="20" selection-end-line="176" selection-end-column="44" />
+          <folding>
+            <element signature="n#style#0;n#label#0;n#div#1;n#form#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#2829#3632#0#HTML" />
+            <element signature="e#91#97#0" expanded="true" />
+            <element signature="e#121#127#0" expanded="true" />
+            <element signature="e#3664#4010#0#HTML" />
+            <element signature="e#4216#4588#0#HTML" />
+          </folding>
         </state>
       </provider>
     </entry>

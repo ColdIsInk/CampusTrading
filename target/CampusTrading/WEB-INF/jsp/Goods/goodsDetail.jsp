@@ -143,10 +143,10 @@
             score=$("#evaluateUl li").eq(i).find("input").val();
             rate.render({
                 elem: '#test'+i,
-                length:5,
                 value:4,
                 readonly: true
             });
+            rate.render();
         }
 
     });
