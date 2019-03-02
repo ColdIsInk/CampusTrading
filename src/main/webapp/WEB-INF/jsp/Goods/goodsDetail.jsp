@@ -108,8 +108,6 @@
     $(".price").html("￥"+price);
     var inventory=${Goods.number};//商品的库存量
     var uName=parent.$("#username").val();//获取买家，用户的用户名
-    //var uName='绫清竹';
-
 
     //获取用户对商品的评价
     $.ajax({
@@ -137,16 +135,16 @@
     layui.use(['rate'], function() {
         var rate = layui.rate;
         //基础效果
-        var score=5;
-        console.log($("#evaluateUl li").eq(1).find("input").val());
+        var score=new Array();
         for(var i=0;i<$("#evaluateUl li").length;i++){
-            score=$("#evaluateUl li").eq(i).find("input").val();
+            score[i]=$("#evaluateUl li").eq(i).find("input").val();
+        }
+        for(var i=0;i<$("#evaluateUl li").length;i++){
             rate.render({
                 elem: '#test'+i,
-                value:4,
+                value:score[i],
                 readonly: true
             });
-            rate.render();
         }
 
     });

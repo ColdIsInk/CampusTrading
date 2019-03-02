@@ -1,4 +1,4 @@
-<%--
+﻿<%--
   Created by IntelliJ IDEA.
   User: 12829
   Date: 2018/12/15
@@ -24,13 +24,16 @@
         }
         .layui-layout-admin .layui-body{bottom:0}
         .layui-nav-child dd{text-align: center;letter-spacing: 2px;}
+        .layui-logo{
+            cursor: pointer;
+        }
     </style>
 
 </head>
 <body>
 <div class="layui-layout  layui-layout-admin">
     <div class="layui-header layui-bg-blue">
-        <div class="layui-logo layui-bg-black">校园二手交易</div>
+        <div class="layui-logo layui-bg-black" title="墨寒校园二手交易">墨寒校园二手交易</div>
         <!-- 头部区域（可配合layui已有的水平导航） -->
         <ul class="layui-nav layui-layout-right">
             <li class="layui-nav-item">
@@ -57,7 +60,6 @@
                     <dl class="layui-nav-child zuoce">
                         <dd><a href="/CampusTrading/UserList" title="用户信息" target="content">用户信息</a></dd>
                         <dd><a href="/CampusTrading/AddUser" title="新增用户" target="content">新增用户</a></dd>
-                        <dd><a href="javaScript:void(0);" title="卖家管理" target="content">卖家管理</a></dd>
                     </dl>
                 </li>
                 <li class="layui-nav-item layui-nav-itemed">
@@ -73,7 +75,7 @@
     </div>
 
     <div class="layui-body">
-        <iframe name="content" width="100%" height="100%" frameborder="0" ></iframe>
+        <iframe src="/CampusTrading/Welcome" name="content" width="100%" height="100%" frameborder="0" ></iframe>
     </div>
 
 </div>
@@ -81,6 +83,11 @@
 
 <script src="js/jquery-3.2.1.min.js"></script>
 <script src="js/layui.all.js"></script>
+<script>
+    $(".layui-logo").click(function () {
+        window.location.reload();
+    });
+</script>
 
 </body>
 </html>

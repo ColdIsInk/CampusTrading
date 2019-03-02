@@ -94,7 +94,7 @@
             for(var i=0;i<data.length;i++){
                infoHtml+="<li><div><img src='"+data[i].picture+"'></div><div class='gName'>" +
                    "<p>"+data[i].name+"</p><p>"+data[i].content+"</p></div><div class='price'>" +
-                   "<p>单价:&emsp;<span>￥"+data[i].price+"</span></p><p>库存:&emsp;"+data[i].number+"件</p>" +
+                   "<p>单价:&emsp;<span>￥"+data[i].price.toFixed(2)+"</span></p><p>库存:&emsp;"+data[i].number+"件</p>" +
                    "</div><div class='edit'> <button class='layui-btn layui-btn-warm' onclick='editGoods("+data[i].g_id+")' " +
                    "title='修改'>编辑商品信息</button></div></li>";
             }
@@ -133,12 +133,12 @@
             dataType:"json",
             success:function (data) {
                 //该表单里面的东西赋值
-                $("#gId").val(data.gid);
+                $("#gId").val(data.g_id);
                 $("#name").val(data.name);
                 $("#content").val(data.content);
                 $("#typeId").val(data.type_id);
                 $("#number").val(data.number);
-                $("#price").val(data.price);
+                $("#price").val(data.price.toFixed(2));
                 //查询成功，显示出该商品基本信息的弹窗
                 layui.use("layer",function () {
                    var layer=layui.layer;
@@ -146,7 +146,8 @@
                        type:1,
                        title:['编辑商品','font-size:16px'],
                        anim:5,
-                       area:["420px",'380px'],
+                       offset:'96px',
+                       area:["470px",'390px'],
                        shade: [0.4, '#cccccc'],
                        content:$('#oneGoodsInfo'),
                        cancel:function (index) {
@@ -167,14 +168,14 @@
             type:"post",
             success:function (data) {
                 if(data=="1"){
-                    layer.alert("商品信息修改成功",function () {
+                    layer.alert("商品信息修改成功",{offset:'180px'},function () {
                        window.location.reload();
                         layer.close(infoIndex);
                         $('#oneGoodsInfo').hide();
                     });
                 }
                 else {
-                    layer.alert("商品信息修改失败");
+                    layer.alert("商品信息修改失败",{offset:'180px'});
                 }
             }
         })

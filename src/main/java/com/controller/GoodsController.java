@@ -136,6 +136,7 @@ public class GoodsController {
     @RequestMapping("EditGoodsInfo")
     @ResponseBody
     public String editGoodsInfo(Goods goods){
+        System.out.println(goods);
         int e=goodsService.editGoodsInfo(goods);
         return e>0?"1":"0";
     }

@@ -96,5 +96,15 @@ public class LoginController {
         return "Goods/shopping";
     }
 
+    /**
+     *
+     * @return 到欢迎管理的页面
+     */
+    @RequestMapping("/Welcome")
+    public String welcome(){
+        return "Login/welcome";
+    }
+
+
 }
 

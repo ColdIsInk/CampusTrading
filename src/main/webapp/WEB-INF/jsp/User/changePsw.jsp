@@ -1,4 +1,4 @@
-<%--
+﻿<%--
   Created by IntelliJ IDEA.
   User: 12829
   Date: 2018/12/20
@@ -62,6 +62,9 @@
                     $("#oldPsw").html("原密码不正确，请重新输入");
                     $("#oldPassword").val("").focus();
                 }
+                else{
+                    $("#oldPsw").html("");
+                }
             }
         })
 
@@ -72,7 +75,7 @@
         var rePassword=$("#rePassword").val();
 
         if(newPassword==""){
-            $("#pswError").html("请先输入密码");
+            $("#pswError").html("请先输入新密码");
             $("#newPassword").val("").focus();
         }
         else if(rePassword!=newPassword){
@@ -80,10 +83,19 @@
             $("#newPassword").val("").focus();
             $("#rePassword").val("");
         }
+        else{
+            $("#pswError").html("");
+        }
     });
 
     $("#change").click(function () {//点击修改密码
         var newPassword=$("#newPassword").val();
+        var rePassword=$("#rePassword").val();
+        if(newPassword==""){
+            layer.alert('新密码不能为空',function () {
+                $("#newPassword").val("").focus();
+            });
+        }
         $.ajax({
             url:"/CampusTrading/ChangePassword",
             data:{"username":username,"password":newPassword},
