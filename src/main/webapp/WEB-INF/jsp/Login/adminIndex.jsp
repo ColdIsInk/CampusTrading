@@ -33,7 +33,7 @@
 <body>
 <div class="layui-layout  layui-layout-admin">
     <div class="layui-header layui-bg-blue">
-        <div class="layui-logo layui-bg-black" title="墨寒校园二手交易">墨寒校园二手交易</div>
+        <div class="layui-logo layui-bg-black" title="校园二手交易平台">校园二手交易平台</div>
         <!-- 头部区域（可配合layui已有的水平导航） -->
         <ul class="layui-nav layui-layout-right">
             <li class="layui-nav-item">
@@ -55,15 +55,28 @@
         <div class="layui-side-scroll">
             <!-- 左侧导航区域（可配合layui已有的垂直导航） -->
             <ul class="layui-nav layui-nav-tree" lay-filter="test" lay-shrink="all">
-                <li class="layui-nav-item layui-nav-itemed">
+                <li class="layui-nav-item">
                     <a class="" href="javascript:;" title="用户管理">用户管理</a>
                     <dl class="layui-nav-child zuoce">
                         <dd><a href="/CampusTrading/UserList" title="用户信息" target="content">用户信息</a></dd>
                         <dd><a href="/CampusTrading/AddUser" title="新增用户" target="content">新增用户</a></dd>
                     </dl>
                 </li>
-                <li class="layui-nav-item layui-nav-itemed">
-                    <a class="" href="javascript:;" title="基础管理">公告管理</a>
+                <li class="layui-nav-item">
+                    <a class="" href="javascript:;" title="商品管理">商品管理</a>
+                    <dl class="layui-nav-child zuoce">
+                        <dd><a href="/CampusTrading/AllGoods" title="查看商品" target="content" id="queryGoods">查看商品</a></dd>
+                        <dd><a href="/CampusTrading/GoodsType" title="商品类型" target="content">商品类型</a></dd>
+                    </dl>
+                </li>
+                <li class="layui-nav-item">
+                    <a class="" href="javascript:;" title="订单管理">订单管理</a>
+                    <dl class="layui-nav-child zuoce">
+                        <dd><a href="/CampusTrading/AllOrdersView" title="查看订单" target="content" id="queryOrder">查看订单</a></dd>
+                    </dl>
+                </li>
+                <li class="layui-nav-item">
+                    <a class="" href="javascript:;" title="公告管理">公告管理</a>
                     <dl class="layui-nav-child zuoce">
                         <dd><a href="/CampusTrading/NoticesList" title="查看公告" target="content" id="queryNotice">查看公告</a></dd>
                         <dd><a href="/CampusTrading/EnterAddNotice" title="发布公告" target="content">发布公告</a></dd>

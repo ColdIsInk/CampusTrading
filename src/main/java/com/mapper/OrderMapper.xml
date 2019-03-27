@@ -9,6 +9,16 @@
         select * from user where Id=(select u_id from goods where g_id=#{gId})
     </select>
 
+    <!--查询所有交易未完成的订单，管理员进行查看-->
+    <select id="selectAllOrder" resultType="com.entity.Orders">
+         select * from orders where state!=5
+    </select>
+
+    <!--根据订单的id来查询这个订单的详细情况-->
+    <select id="queryOrdersById" parameterType="int" resultType="com.entity.Orders">
+         select * from orders where oId=#{id}
+    </select>
+
     <!--查询某个用户待付款的订单，根据用户名和状态-->
     <select id="pendingPayment" parameterType="String" resultType="com.entity.Orders">
         select * from orders where uName=#{uName} and state=1

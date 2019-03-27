@@ -22,6 +22,8 @@ public interface  UserDao {
 
     User getUserByName(String name); //得到用户的name，判断是否唯一，注册,根据用户名查找用户
 
+    String getNameById(int id);//根据ID获取用户名
+
     User getUsernameById(User user);//修改是判断除自己外的用户名是否会重复
     /**
      * 注册一个用户

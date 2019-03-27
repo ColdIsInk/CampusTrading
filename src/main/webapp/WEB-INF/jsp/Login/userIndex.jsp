@@ -18,7 +18,7 @@
 <input type="hidden" id="username" value="${username}">
 <!--头部，导航-->
 <div class="layui-header layui-bg-black" >
-    <div class="layui-logo" id="logo" title="墨寒校园二手交易">墨寒校园二手交易</div>
+    <div class="layui-logo" id="logo" title="校园二手交易平台">校园二手交易平台</div>
     <ul class="layui-nav layui-layout-right">
         <li class="layui-nav-item">
             <a href="javascript:;" id="orderKinds">

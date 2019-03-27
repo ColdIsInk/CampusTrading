@@ -75,13 +75,11 @@ public class GoodsController {
         }else {
             return "0";
         }
-
-
     }
 
     @RequestMapping(value = "SelectGoods",produces="application/json;charset=utf-8")
     @ResponseBody
-    public String selectGoods(){
+    public String selectGoods(){//所有商品
         List<Goods> list=goodsService.selectGoods();
         return JSONObject.toJSONString(list);
     }
@@ -135,10 +133,57 @@ public class GoodsController {
 
     @RequestMapping("EditGoodsInfo")
     @ResponseBody
-    public String editGoodsInfo(Goods goods){
-        System.out.println(goods);
+    public String editGoodsInfo(Goods goods){//修改商品信息
         int e=goodsService.editGoodsInfo(goods);
         return e>0?"1":"0";
     }
+
+    @RequestMapping("DeleteGoods")
+    @ResponseBody
+    public String deleteGoods(int gid){
+        int d=goodsService.deleteGoodsById(gid);
+        return d>0?"1":"0";
+    }
+
+    @RequestMapping("AllGoods")
+    public String allGoods(){
+        return "Goods/allGoods";
+    }
+
+    @RequestMapping("GoodsType")
+    public String goodsType(){
+        return "Goods/goodsType";
+    }
+
+    /**
+     * 商品类型的管理
+     */
+    @RequestMapping(value = "QueryGoodsTypeById",produces="text/html;charset=utf-8")
+    @ResponseBody
+    public String queryGoodsTypeById(int id){
+        return goodsService.queryGoodsTypeById(id);
+    }
+
+    @RequestMapping("EditGoodsType")
+    @ResponseBody
+    public String editGoodsType(String name,int id){
+        int e= goodsService.editGoodsType(name,id);
+        return e>0?"1":"0";
+    }
+
+    @RequestMapping("DeleteGoodsType")
+    @ResponseBody
+    public String deleteGoodsType(int id){
+        int d= goodsService.deleteGoodsType(id);
+        return d>0?"1":"0";
+    }
+
+    @RequestMapping("AddGoodsType")
+    @ResponseBody
+    public String addGoodsType(String name){
+        int a= goodsService.addGoodsType(name);
+        return a>0?"1":"0";
+    }
+
 
 }

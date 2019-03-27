@@ -23,6 +23,11 @@
         SELECT * FROM user where Id=#{id}
     </select>
 
+    <!--根据用户ID来查询用户的姓名-->
+    <select id="getNameById" parameterType="int" resultType="String">
+        SELECT username FROM user where Id=#{id}
+    </select>
+
     <!--注册一个用户 也就是添加用户但字段比较少-->
     <insert id="registerUser"  parameterType="com.entity.User" >
         insert into user(username,password,sex,phone,email,permissions) values (#{username},#{password},#{sex},#{phone},#{email},#{permissions})

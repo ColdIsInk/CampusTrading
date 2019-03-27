@@ -34,6 +34,14 @@ public class OrderService {
         return orderCount;
     }
 
+    public List<Orders> selectAllOrder(){//查询出所有订单
+        return orderDao.selectAllOrder();
+    }
+
+    public  Orders queryOrdersById(int id){
+        return orderDao.queryOrdersById(id);
+    }
+
     public List<Orders> pendingPayment(String uName){//查询待付款订单的详情
         return orderDao.pendingPayment(uName);
     }

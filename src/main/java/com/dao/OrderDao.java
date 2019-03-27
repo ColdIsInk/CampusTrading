@@ -13,6 +13,10 @@ public interface OrderDao {
 
     User selectNameByGID(int gId);//商品的ID来查询卖家的姓名
 
+    List<Orders> selectAllOrder();//查看所有交易未完成的订单，用于关于的查看
+
+    Orders queryOrdersById(int id);//根据订单的ID来查询订单的详细情况
+
     List<Orders> pendingPayment(String uName);//待付款
 
     List<Orders> pendingShipped(String uName);//待发货

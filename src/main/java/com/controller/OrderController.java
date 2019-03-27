@@ -23,6 +23,11 @@ public class OrderController {
     @Autowired
     private OrderService orderService;
 
+    @RequestMapping("AllOrdersView")
+    public String allOrdersView(){
+        return "Order/allOrder";
+    }
+
     @RequestMapping(value="CreateOrderView/{goodsInfo}",method = RequestMethod.POST,produces="text/plain;charset=utf-8")
     public String createOrder(@PathVariable("goodsInfo")String goodsInfo,HttpServletRequest request){//进入创建订单的页面
         request.setAttribute("goodsInfo",goodsInfo);
@@ -86,6 +91,20 @@ public class OrderController {
     @RequestMapping("EvaluateView")
     public String evaluationView(){//进入待评价的页面
         return "Order/pendingEvaluation";
+    }
+
+    @RequestMapping(value = "QueryAllOrders",produces = "application/json;charset=utf-8")
+    @ResponseBody
+    public String queryAllOrder(){//查询出所有交易未完成的订单
+        List<Orders> list=orderService.selectAllOrder();
+        return JSONObject.toJSONString(list);
+    }
+
+    @RequestMapping(value = "QueryOrderById",produces = "application/json;charset=utf-8")
+    @ResponseBody
+    public String queryOrderById(int id){
+        Orders list=orderService.queryOrdersById(id);
+        return JSONObject.toJSONString(list);
     }
 
     @RequestMapping(value = "PendingPayment",produces = "application/json;charset=utf-8")

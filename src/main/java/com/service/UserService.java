@@ -31,6 +31,10 @@ public class UserService {
         return userDao.getUserById(id);
     }
 
+    public String getNameById(int id){
+        return userDao.getNameById(id);
+    }
+
     public int deleteUser(int id){//删除用户
         return userDao.deleteUser(id);
     }

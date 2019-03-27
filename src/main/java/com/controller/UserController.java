@@ -159,9 +159,10 @@ public class UserController {
         return user.getPhone();
     }
 
-
-
-
-
+    @RequestMapping(value = "GetNameById",produces="text/html;charset=utf-8")
+    @ResponseBody
+    public String getNameById(int id){
+        return userService.getNameById(id);
+    }
 
 }

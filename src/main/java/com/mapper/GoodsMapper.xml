@@ -4,11 +4,6 @@
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <mapper namespace="com.dao.GoodsDao">
 
-    <!--查询商品的种类-->
-    <select id="getGoodsType" resultType="com.entity.GoodsType">
-        select * from goods_type order by Id
-    </select>
-
     <!--添加新商品-->
     <insert id="insertGoods" parameterType="com.entity.Goods">
         insert into goods(name,price,number,type_id,content,picture,u_id)
@@ -50,5 +45,35 @@
     <update id="editGoodsInfo" parameterType="com.entity.Goods">
         update goods set name=#{name},price=#{price},number=#{number},type_id=#{type_id},content=#{content} where g_id=#{g_id}
     </update>
+
+    <!--删除一件商品，根据商品的ID-->
+    <delete id="deleteGoodsById" parameterType="int">
+        delete from goods where g_id=#{gId}
+    </delete>
+
+    <!--查询商品的种类-->
+    <select id="getGoodsType" resultType="com.entity.GoodsType">
+        select * from goods_type order by Id
+    </select>
+
+    <!--根据商品类型的id来查询商品类型的名称-->
+    <select id="queryGoodsTypeById" parameterType="int" resultType="String">
+        select name from goods_type where Id=#{id}
+    </select>
+
+    <!--根据商品类型的id来修改商品类型的名称-->
+    <update id="editGoodsType">
+        update goods_type set name=#{name} where Id=#{id}
+    </update>
+
+    <!--删除一种商品类型-->
+    <delete id="deleteGoodsType" parameterType="int">
+        delete from goods_type where Id=#{id}
+    </delete>
+
+    <!--新增一种商品类型-->
+    <insert id="addGoodsType" parameterType="String">
+        insert into goods_type(name) values(#{name})
+    </insert>
 
 </mapper>

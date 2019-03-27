@@ -48,4 +48,25 @@ public class GoodsService {
     public int editGoodsInfo(Goods goods){
         return goodsDao.editGoodsInfo(goods);
     }
+
+    public int deleteGoodsById(int gId){
+        return goodsDao.deleteGoodsById(gId);
+    }
+
+    public String queryGoodsTypeById(int id){
+        return goodsDao.queryGoodsTypeById(id);
+    }
+
+    public int editGoodsType(String name,int id){
+        return goodsDao.editGoodsType(name,id);
+    }
+
+    public int deleteGoodsType(int id){
+        return goodsDao.deleteGoodsType(id);
+    }
+
+    public int addGoodsType(String name){
+        return goodsDao.addGoodsType(name);
+    }
+
 }

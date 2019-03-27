@@ -42,7 +42,7 @@ public class AddressController {
 
     @RequestMapping(value = "QueryAddressById",produces="application/json;charset=utf-8")
     @ResponseBody
-    public String queryAddressById(int id){//查询用户的默认地址
+    public String queryAddressById(int id){//根据收货地址的id来查询详细信息
         Receive receive=addressService.selectAddressById(id);
         return JSONObject.toJSONString(receive);
     }
@@ -50,6 +50,7 @@ public class AddressController {
     @RequestMapping("AddNewAddress")
     @ResponseBody
     public String addNewAddress(String username,String receiveMan,String receiveAddress,String receiveTel,int isDefault){
+        //添加一条新的收货地址
         Receive receive=new Receive();
         receive.setUsername(username);
         receive.setReceiveMan(receiveMan);
@@ -74,4 +75,5 @@ public class AddressController {
         int d=addressService.deleteAddress(id);
         return d>0?"1":"0";
     }
+
 }
